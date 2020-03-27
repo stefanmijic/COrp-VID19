@@ -12,4 +12,4 @@
 * https://www.unisg.ch/de/universitaet/hsgservices/sport/coronavirus
 * https://www.su.uzh.ch/de/Coronavirus.html
 * https://fernuni.ch/ueber-uns/coronavirus-die-fernuni-schweiz-informiert/
-* https://graduateinstitute.ch/
+* https://graduateinstitute.ch/novel-coronavirus2019
