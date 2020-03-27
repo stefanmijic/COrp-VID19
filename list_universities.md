@@ -13,3 +13,163 @@
 * https://www.su.uzh.ch/de/Coronavirus.html
 * https://fernuni.ch/ueber-uns/coronavirus-die-fernuni-schweiz-informiert/
 * https://graduateinstitute.ch/novel-coronavirus2019
+
+## Germany
+* https://www.fh-aachen.de/index.php?id=30033
+* https://www.rwth-aachen.de/cms/root/Die-RWTH/Aktuell/Pressemitteilungen/Maerz-2020/Infektionen-mit-Coronavirus/~ghyqc/Haeufig-gestellte-Fragen-zum-Coronavirus/
+* https://www.hs-aalen.de/facilities/203
+* https://www.hs-albsig.de/hochschule/organisation/rektorat/coronavirus
+* https://www.alanus.edu/de/aktuelles/aus-der-hochschule/detail/aktuelle-informationen-der-alanus-hochschule-zum-umgang-mit-dem-coronavirus/d6891f99953512577aa404a0fdb45f3b/
+* http://www.fhvd-sh.de/
+* https://www.oth-aw.de/informieren-und-entdecken/aktuelles/neuigkeiten/news/202003196116-informationen-zum-coronavirus/
+* https://www.hs-ansbach.de/startseite/corona-haeufige-fragen/
+* https://www.th-ab.de/ueber-uns/presse-aktuelles/informationen-zum-coronavirus/ 
+* https://ms.sachsen-anhalt.de/themen/gesundheit/aktuell/coronavirus/fragen-und-antworten-zum-corona-virus/
+* https://www.hs-augsburg.de/Kommunikation/Informationen-und-Umgang-mit-Corona-Virus-Sars-CoV-2.html
+* https://www.uni-augsburg.de/de/campusleben/neuigkeiten/2020/03/26/1585/
+* https://www.hdbw-hochschule.de/news/wir-lehren-lernen-online/
+* https://www.dguv.de/de/praevention/themen-a-z/biologisch/neuartiges-coronavirus-2019-ncov/index.jsp
+* https://www.accadis.com/Update-Coronavirus_1934.aspx
+* https://www.fhr.nrw.de/behoerde/presse/Corona/index.php
+* https://www.diploma.de/aktuelles/aus-aktuellem-anlass
+* https://www.uni-bamberg.de/gesund/coronavirus/
+* https://www.uni-bayreuth.de/de/universitaet/presse/pressemitteilungen/2020/045-Experte-zu-Corona-Folgen-fuer-Entwicklungslaender/index.html
+* https://www.akkon-hochschule.de/covid-19.html
+* https://www.ash-berlin.eu/hochschule/presse-und-newsroom/news/news/coronavirus-alle-infos-auf-einen-blick/
+* https://www.bbw-hochschule.de/informationen-zum-coronavirus.html
+* https://www.beuth-hochschule.de/coronavirus
+* https://www.dekra-hochschule.de/details/?tx_news_pi1%5Bnews%5D=1454&cHash=45c939733c89ee891f9f29ea1127c821
+* https://www.design-akademie-berlin.de/338-hochschule/5742-corona-2020.html
+* https://escp.eu/coronavirus
+* https://esmt.berlin/news-events/information-about-coronavirus
+* https://www.eh-berlin.de/hochschule/hochschulleitung/informationen-zum-coronavirus.html
+* https://www.hdpk.de/de/landing-pages/covid-19-massnahmen-der-srh-berlin-university-of-applied-sciences/
+* https://www.hmkw.de/hochschule/hochschulinformationen-zum-neuartigen-corona-virus-sars-cov-2/
+* https://www.htw-berlin.de/einrichtungen/hochschulleitung/sicherheitsingenieure/corona-virus/
+* https://www.hwtk.de/corona/
+* https://www.hwr-berlin.de/aktuelles/coronavirus/
+* https://www.fu-berlin.de/sites/coronavirus/index.html
+* https://www.hertie-school.org/en/debate/detail/content/hertie-school-moves-to-online-teaching/
+* https://www.hfm-berlin.de/faq-coronavirus/faq-coronavirus/
+* https://www.hu-berlin.de/de/pr/coronavirus-informationen/
+* https://www.ib-hochschule.de/news/single/news/398072.html
+* https://www.ipu-berlin.de/aus-anlass-der-infektionsgefahr-durch-das-corona-virus-sars-cov-2/
+* https://www.khsb-berlin.de/de/Coronavirus
+* https://kh-berlin.de/corona
+* https://newsroom.mediadesign.de/presse/coronavirus/
+* https://www.psychologische-hochschule.de/coronavirus/
+* https://www.srh-hochschule-berlin.de/de/lp/informationen-zum-coronavirus/
+* https://www.pressestelle.tu-berlin.de/menue/tub_medien/newsportal/innenansichten/2020/coronavirus_2019_ncov/parameter/de
+* https://www.touroberlin.de/
+* https://www.udk-berlin.de/startseite/news/infoseite-zu-den-sofortmassnahmen-im-kontext-des-coronavirus-an-der-udk-berlin/
+* https://www.quadriga-university.com/de/news/statement-der-quadriga-hochschule-zur-corona-krise
+* https://www.hs-anhalt.de/hochschule-anhalt/aktuelles/corona/corona-studierende.html
+* https://www.hochschule-biberach.de/web/guest/home?p_p_auth=zVHG6Hvi&p_p_id=101&p_p_lifecycle=0&p_p_state=maximized&p_p_mode=view&_101_struts_action=%2Fasset_publisher%2Fview_content&_101_assetEntryId=12850457&_101_type=content&_101_groupId=3728686&_101_urlTitle=gesundheitsmanagement-aktuelles&redirect=https%3A%2F%2Fwww.hochschule-biberach.de%2Fweb%2Fguest%2Fhome%3Fp_p_id%3D3%26p_p_lifecycle%3D0%26p_p_state%3Dmaximized%26p_p_mode%3Dview%26_3_groupId%3D0%26_3_keywords%3Dcorona%26_3_struts_action%3D%252Fsearch%252Fsearch%26_3_redirect%3D%252F
+* https://www.fh-bielefeld.de/corona
+* https://www.fh-bielefeld.de/corona
+* https://uni-bielefeld.de/themen/coronavirus/
+* https://www.th-bingen.de/hochschule/th-auf-einen-blick/coronavirus/
+* https://www.e-b-z.de/presse/beitraege-und-interviews/coronavirus-ebz-fuer-den-fall-der-faelle-geruestet.html
+* https://www.evh-bochum.de/artikel/notbetrieb-fragen-und-antworten-fuer-studierende.html
+* https://www.hochschule-bochum.de/die-bo/hochschule/praesidium/coronavirus/
+* https://www.hs-gesundheit.de/infocovid19
+* https://www.ruhr-uni-bochum.de/de/aktuelle-informationen-zu-corona
+* https://www.thga.de/aktuelles/neues-aus-der-th-georg-agricola/coronavirus/
+* https://www.s-hochschule.de/news/pressemeldungen/aenderungen-im-studienbetrieb-durch-das-coronavirus.html
+* https://www.uni-bonn.de/neues/informationen-zum-corona-virus/
+* https://www.h-brs.de/de/aktuelle-meldungen-der-h-brs-zum-coronavirus
+* https://www.th-brandenburg.de/hochschule/aktuelles/corona-update-lehre/
+* https://www.mhb-fontane.de/aktuellesartikel/mhb-beschliesst-massnahmen-zur-verlangsamung-der-covid-19-pandemie.html
+* http://www.hbk-bs.de/aktuell/corona/
+* https://magazin.tu-braunschweig.de/m-post/informationen-zum-corona-virus/
+* https://www.hs-bremen.de/internet/de/einrichtungen/presse/mitteilungen/2020/detail/index_71816.html
+* https://www.apollon-hochschule.de/die-hochschule/die-hochschule/aktuelles-zu-covid-19/
+* https://www.hfk-bremen.de/corona-info
+* https://www.hfoev.bremen.de/detail.php?gsid=bremen02.c.730.de
+* https://www.jacobs-university.de/coronavirus_covid-19
+* https://www.uni-bremen.de/coronavirus/
+* https://www.hs-bremerhaven.de/organisation/dezernate-und-stabsstellen/marketing-und-oeffentlichkeitsarbeit/faq-corona-virus/#c26160
+* https://www.eufh.de/eufh-management-und-gesundheit-studieren-2-2/corona_studierendeninformation/
+* https://www.hsbund.de/DE/00_Home/1_Buehne/HSBund_200327.html
+* https://www.hs21.de/unser-profil/wichtige-hinweise-zum-umgang-mit-dem-coronavirus-an-der-hs21
+* https://www.hochschule-heidelberg.de/de/landingpage/umgang-mit-dem-coronavirus-an-der-hshd/
+* https://www.tu-chemnitz.de/tu/pressestelle/aktuell/10049
+* https://www.hs-coburg.de/news-detailseite/corona-update-vorlesungen-verschoben.html
+* https://www.tu-clausthal.de/corona
+* https://www.iubh-dualesstudium.de/aktuelle-meldung/
+* https://alt.hfs-berlin.de/nachricht/hfs-im-notbetrieb-ab-23-maerz-2020/
+* https://code.berlin/en/
+* https://www.businessschool-berlin.de/fileadmin/Daten/BSP/Hochschule/Presse/News_2020/Corona_14032020_BSP.pdf
+* https://www.b-tu.de/universitaet/leitung/informationen-zum-coronavirus
+* https://www.eh-darmstadt.de/hochschule/aktuell/
+* https://h-da.de/hochschule/corona/
+* https://www.tu-darmstadt.de/universitaet/aktuelles_meldungen/mitteilung_corona_virus.de.jsp
+* https://www.th-deg.de/de/hochschule/aktuelles-zum-coronavirus
+* http://www.hfm-detmold.de/aktuelles/aktuelles-detail/news/update-vom-2003-zum-corona-virus/
+* https://www.ism.de/semesterstart-an-der-ism-auf-april-verschoben
+* https://www.tu-dortmund.de/coronavirus/
+* https://www.di-uni.de/news-presse/corona-virus
+* https://www.ehs-dresden.de/news/einzelne-news/article/informationen-zu-covid-19-coronavirus-sars-cov-2/
+* https://www.fh-dresden.eu/aktuelles/news/corona/
+* https://www.hfbk-dresden.de/aktuelles/details/corona-ticker-faqs/
+* https://www.hfmdd.de/#c25126
+* https://www.htw-dresden.de/hochschule/aktuelles/coronavirus
+* https://tu-dresden.de/tu-dresden/gesundheitsmanagement/information-regarding-covid-19-coronavirus-sars-cov-2
+* https://www.uni-due.de/de/covid-19/
+* https://www.hs-duesseldorf.de/aktuelles/coronavirus?showarrows=1&sid=o13nnq0cudvgelwycuktdrsq
+* https://www.uni-duesseldorf.de/home/startseite/news-detailansicht-inkl-gb/article/oberstes-ziel-kontaktreduktion-auf-dem-campus.html
+* https://www.fliedner-fachhochschule.de/coronavirus/
+* https://www.ist-hochschule.de/news/8484/coronavirus-wichtiger-hinweis
+* https://www.kunstakademie-duesseldorf.de/fileadmin/Redaktion/Dokumente/PDF/Amtliche_Mitteilungen/RR_Rundschreiben_Deutsch_250320.pdf
+* https://www.kunstakademie-duesseldorf.de/fileadmin/Redaktion/Dokumente/PDF/Amtliche_Mitteilungen/Corona-Pandemie-Rundschreiben-des-Rektorats-16-03-2020.pdf
+* https://www.hnee.de/de/Aktuelles/Presseportal/Pressemitteilungen/HNEE-schaltet-auf-Prsenznotbetrieb-um-E10568.htm
+* https://www.lfst-rlp.de/service/infos-zu-corona
+* https://www.ku.de/corona
+* https://www.nordakademie.de/news/umgang-mit-dem-coronavirus
+* https://www.th-elstal.de/hochschule/hintergrundinformationen/corona/
+* https://www.hs-emden-leer.de/einrichtungen/arbeitssicherheit/corona-virus/
+* https://www.fh-erfurt.de/fhe/fachhochschule/aktuelles/informationen-zum-coronavirus/
+* https://www.fau.de/2020/03/news/digitale-lehre-in-zeiten-der-corona-krise/
+* https://www.folkwang-uni.de/home/hochschule/vollanzeige/news-detail/folkwang-informiert-zu-corona-2/
+* https://www.hbk-essen.de/de/news/coronavirus-informationen-fur-studierende/101
+* https://www.hs-esslingen.de/hochschule/aktuelles/corona/
+* https://hs-flensburg.de/hochschule/aktuelles/2020/3/16/hochschule-flensburg-im-notbetrieb
+* https://www.uni-flensburg.de/?id=28875
+* https://www.frankfurt-university.de/de/aktuelles/infektionsschutz/
+* https://www.frankfurt-school.de/home/newsroom/news/2020/Maerz/info-coronavirus
+* http://www.hfmdk-frankfurt.info/aktuelles/coronavirus-informationen-und-faqs/coronavirus-faq/
+* https://www.uni-frankfurt.de/86555546/Corona?legacy_request=1
+* https://www.sankt-georgen.de/button-menue/mediathek/nachrichten-aus-sankt-georgen/detail/update-informationen-zur-corona-pandemie-416/
+* https://www.provadis-hochschule.de/aktuelles/vorlesungen-der-phs-ab-sofort-100-online.html
+* https://www.staedelschule.de/de/calendar/entries/coronavirus-aktuelle-hinweise/
+* https://www.europa-uni.de/de/struktur/unileitung/pressestelle/aktuelles/corona/index.html
+* https://tu-freiberg.de/corona
+* http://www.uni-freiburg.de/universitaet/corona
+* https://www.eh-freiburg.de/coronavirus/
+* https://www.mh-freiburg.de/hochschule/covid-19-corona/
+* https://www.kh-freiburg.de/coronavirus
+* https://www.thh-friedensau.de/coronainfo/
+* https://www.hs-fulda.de/unsere-hochschule/alle-meldungen/informationen-zum-coronavirus
+* https://www.wlh-fuerth.de/service/aktuelles/aus-dem-hochschulleben/news/detail/News/corona-news/
+* https://www.hs-furtwangen.de/aktuelles/coronavirus/
+* https://www.hs-geisenheim.de/corona-virus/
+* https://www.hspv.nrw.de/kalender/termine/hochschultag-2020/
+* https://www.w-hs.de/erkunden/praesidium/corona/
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+
+
+
+## Bad Sources
+* https://www.kirchenmusik-dresden.de/
+* https://th-ewersbach.de/
