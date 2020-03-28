@@ -1,9 +1,12 @@
-{% load static %}
+{% extends "corpapp/base.html" %}
 
-{% block extrahead %}
-	<title>COrpVID19</title>
-	<link rel="icon" href="{% static 'corpapp/logo.png' %}" />
-{% endblock %}
+
+{% block title %}COrpVID19 | Home{% endblock %}
+
+{% block header %}Corporate COVID-19 Response Visualization{% endblock %}
+
+
+{% block content %}
 
 {% if unilist %}
 <table>
@@ -23,3 +26,5 @@
 {% else %}
 Sorry, no Unis found...
 {% endif %}
+
+{% endblock content %}
