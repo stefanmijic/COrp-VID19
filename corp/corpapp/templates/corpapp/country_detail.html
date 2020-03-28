@@ -1,0 +1,21 @@
+{% extends "corpapp/base.html" %}
+
+
+{% block title %}COrpVID19 | {{ country }}{% endblock %}
+
+{% block header %}{{ country }}{% endblock %}
+
+{% block bonushead %}
+<script>
+	$(document).ready(function() {
+		renderChart("{{ country }}");
+	});
+</script>
+{% endblock bonushead %}
+
+
+{% block content %}
+
+<div id="chart"></div>
+
+{% endblock content %}

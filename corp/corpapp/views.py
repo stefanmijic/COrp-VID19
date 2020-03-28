@@ -10,6 +10,10 @@ def countries(request):
     context = {'cntlist': cntlist}
     return render(request, 'corpapp/countries.html', context)
 
+def country_detail(request, country):
+    context = {'country': country}
+    return render(request, 'corpapp/country_detail.html', context)
+
 def states(request):
     stlist = State.objects.order_by(Lower('name'))
     context = {'stlist': stlist}

@@ -29,3 +29,4 @@ Corporate COVID-19 Response Visualization
 https://getbootstrap.com/
 http://lesscss.org/
 https://datatables.net/
+https://frappe.io/charts

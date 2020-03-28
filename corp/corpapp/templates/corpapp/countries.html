@@ -18,7 +18,7 @@
 	</tr></thead>
 	{% for c in cntlist %}
 	<tr>
-		<td>{{ c.name }}</td>
+		<td><a href="country/{{ c.name }}">{{ c.name }}</a></td>
 		<td>{{ c.bip|intcomma }}</td>
 		<td>{{ c.people|intcomma }}</td>
 	</tr>

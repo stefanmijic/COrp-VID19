@@ -73,16 +73,16 @@
        d="m 100,116.48414 69.72878,40.25793 0,80.51586 -69.728782,40.25793 -69.728781,-40.25793 3e-6,-80.51586 z" />
     <g
        id="g854"
-       style="fill:#e6e6e6"
+       style="fill:#ffffff"
        transform="matrix(1.6328775,0,0,1.6328775,-108.30121,135.75936)">
       <path
          inkscape:connector-curvature="0"
          id="rect819"
          d="M 103.0858,41.941665 V 55.50193 c 0,2.271055 2.15815,4.099625 4.83854,4.099625 h 39.2858 c 2.68039,0 4.83797,-1.82857 4.83797,-4.099625 V 41.941665 c -0.4427,0.112407 -0.91154,0.174374 -1.39856,0.174374 h -46.16519 c -0.48701,0 -0.95585,-0.06196 -1.39856,-0.174374 z"
          clip-path="none"
-         style="opacity:1;fill:#e6e6e6;fill-opacity:1;stroke:none;stroke-width:0.51676506;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+         style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.51676506;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
       <rect
-         style="opacity:1;fill:#e6e6e6;fill-opacity:1;stroke:none;stroke-width:0.5195455;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.5195455;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
          id="rect843"
          width="56.318443"
          height="17.764877"
@@ -94,7 +94,7 @@
          inkscape:connector-curvature="0"
          id="rect846"
          d="m 119.65534,15.407919 c -3.43892,0 -6.2073,2.76838 -6.2073,6.207302 v 1.072051 c 0,2.457872 1.41474,4.572579 3.47719,5.579509 v -6.273562 c 0,-1.605244 1.29226,-2.897509 2.8975,-2.897509 h 15.91023 c 1.60524,0 2.89751,1.292265 2.89751,2.897509 v 6.045962 c 1.83085,-1.07712 3.05539,-3.065592 3.05539,-5.351909 v -1.072051 c 0,-3.438922 -2.76838,-6.207302 -6.2073,-6.207302 z"
-         style="opacity:1;fill:#e6e6e6;fill-opacity:1;stroke:none;stroke-width:0.27876219;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+         style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.27876219;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
     </g>
   </g>
 </svg>

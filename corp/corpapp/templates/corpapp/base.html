@@ -5,19 +5,28 @@
 		{% block title %}{% endblock %}
 	</title>
 	<link rel="icon" href="{% static 'corpapp/logo.svg' %}" />
+
 	<link rel="stylesheet" href="https://cdn.datatables.net/1.10.20/css/jquery.dataTables.min.css" />
-	<script src="{% static 'corpapp/jquery-3.4.1.slim.js' %}"></script>
+
+	<script src="{% static 'corpapp/jquery-3.4.1.js' %}"></script>
 	<script src="{% static 'corpapp/bootstrap.bundle.min.js' %}"></script>
 	<script src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script>
 	<link rel="stylesheet" href="{% static 'corpapp/bootstrap.min.css' %}" />
+
 	<link rel="stylesheet/less" href="{% static 'corpapp/style.less' %}" />
 	<script src="{% static 'corpapp/less.min.js' %}" ></script>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-csv/0.71/jquery.csv-0.71.min.js"></script>
+	<script src="https://unpkg.com/frappe-charts@1.1.0"></script>
+	<script src="{% static 'corpapp/timeseries.js' %}"></script>
 
 	<script>
 		$(document).ready(function() {
 			$('.datatable').DataTable();
 		} );
 	</script>
+
+	{% block bonushead %}{% endblock %}
 {% endblock %}
 
 <top-ribbon class="container">
