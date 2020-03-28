@@ -1,0 +1,22 @@
+[
+    {
+        "model": "corpapp.Country",
+        "pk": 1,
+        "fields": {
+          "name": "Schweiz",
+          "abbreviation": "CH",
+          "bip": 705500000000,
+          "people": 8544527
+        }
+    },
+    {
+        "model": "corpapp.Country",
+        "pk": 2,
+        "fields": {
+          "name": "Zurich",
+          "abbreviation": "DE",
+          "bip": 3951000000000,
+          "people": 83019213
+        }
+    }
+  ]
