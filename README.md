@@ -4,7 +4,7 @@ Corporate COVID-19 Response Visualization
 
 ## Immediate Steps
 - Create list of companies that publically announced their COVID19 response and find web sources where those are listed
-- Decide on tag categories (e.g. [voluntary homeoffice], [mandatory homeoffice], [closed operations], etc.) 
+- Decide on tag categories (e.g. [voluntary homeoffice], [mandatory homeoffice], [closed operations], etc.)
 
 
 ## Following Steps
@@ -21,3 +21,6 @@ Corporate COVID-19 Response Visualization
 ## Scope
 - Focus only on DACH for now
 - Focus only on major companies & universities for now
+
+## Dependencies
+- Läuft mit Python 3 und Django
