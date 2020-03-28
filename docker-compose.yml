@@ -1,0 +1,22 @@
+version: '3'
+
+services:
+  db:
+    image: postgres
+    environment:
+     - POSTGRES_PASSWORD=db
+     - POSTGRES_USER=db
+     - POSTGRES_DB=db
+    expose:
+     - 5432
+    ports:
+      - "5433:5432"
+  web:
+    build: .
+    command: sh start.sh
+    volumes:
+      - .:/webapp
+    ports:
+      - "8000:8000"
+    depends_on:
+      - db
