@@ -8,23 +8,6 @@
 
 {% block content %}
 
-{% if unilist %}
-<table class="datatable">
-	<thead><tr>
-		<th>Name</th>
-		<th>Students</th>
-		<th>Staff</th>
-	</tr></thead>
-	{% for u in unilist %}
-	<tr>
-		<td>{{ u.name }}</td>
-		<td>{{ u.n_students }}</td>
-		<td>{{ u.n_staff }}</td>
-	</tr>
-	{% endfor %}
-</table>
-{% else %}
-Sorry, no Unis found...
-{% endif %}
+Welcome to our humble home. Please, have a seat.
 
 {% endblock content %}

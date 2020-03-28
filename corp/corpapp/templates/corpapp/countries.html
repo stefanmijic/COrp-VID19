@@ -1,0 +1,31 @@
+{% extends "corpapp/base.html" %}
+{% load humanize %}
+
+
+{% block title %}COrpVID19 | Countries{% endblock %}
+
+{% block header %}Country responses{% endblock %}
+
+
+{% block content %}
+
+{% if cntlist %}
+<table class="datatable">
+	<thead><tr>
+		<th>Name</th>
+		<th>GDP</th>
+		<th>People</th>
+	</tr></thead>
+	{% for c in cntlist %}
+	<tr>
+		<td>{{ c.name }}</td>
+		<td>{{ c.bip|intcomma }}</td>
+		<td>{{ c.people|intcomma }}</td>
+	</tr>
+	{% endfor %}
+</table>
+{% else %}
+Sorry, no Countries found...
+{% endif %}
+
+{% endblock content %}

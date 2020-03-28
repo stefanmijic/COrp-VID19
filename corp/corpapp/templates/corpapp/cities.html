@@ -1,0 +1,33 @@
+{% extends "corpapp/base.html" %}
+{% load humanize %}
+
+
+{% block title %}COrpVID19 | Cities{% endblock %}
+
+{% block header %}city responses{% endblock %}
+
+
+{% block content %}
+
+{% if ctylist %}
+<table class="datatable">
+	<thead><tr>
+		<th>Name</th>
+		<th>State</th>
+		<th>Country</th>
+		<th>People</th>
+	</tr></thead>
+	{% for c in ctylist %}
+	<tr>
+		<td>{{ c.name }}</td>
+		<td>{{ c.state }}</td>
+		<td>{{ c.state.country }}</td>
+		<td>{{ c.people|intcomma }}</td>
+	</tr>
+	{% endfor %}
+</table>
+{% else %}
+Sorry, no Cities found...
+{% endif %}
+
+{% endblock content %}
