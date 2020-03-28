@@ -8,6 +8,15 @@
 
 {% block content %}
 
+<table class="datatable">
+	<thead><tr><th>Zahl</th></tr></thead>
+	{% for i in '0123456789'|make_list %}
+		<tr><td>
+	    	{{ forloop.counter }}
+		</td></tr>
+	{% endfor %}
+</table>
+
 {% if unilist %}
 <table>
 	<tr>

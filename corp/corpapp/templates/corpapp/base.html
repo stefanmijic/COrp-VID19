@@ -6,10 +6,18 @@
 	</title>
 	<link rel="icon" href="{% static 'corpapp/logo.svg' %}" />
 	<link rel="stylesheet/less" href="{% static 'corpapp/style.less' %}" />
+	<link rel="stylesheet" href="https://cdn.datatables.net/1.10.20/css/jquery.dataTables.min.css" />
 	<script src="{% static 'corpapp/less.min.js' %}" ></script>
 	<script src="{% static 'corpapp/jquery-3.4.1.slim.js' %}"></script>
 	<script src="{% static 'corpapp/bootstrap.bundle.min.js' %}"></script>
+	<script src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script>
 	<link rel="stylesheet" href="{% static 'corpapp/bootstrap.min.css' %}" />
+
+	<script>
+		$(document).ready(function() {
+			$('.datatable').DataTable();
+		} );
+	</script>
 {% endblock %}
 
 <top-ribbon class="container">
