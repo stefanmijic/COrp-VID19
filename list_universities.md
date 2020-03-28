@@ -199,31 +199,31 @@
 * https://www.hs-fresenius.de/information-corona-virus/
 * https://www.tu-ilmenau.de/universitaet/corona-virus/
 * https://www4.fh-swf.de/de/home/beschaeftigte/organisation_1/beauftragteundvertretung/arbeitssicherheit/corona/coronavirus.php
-* 
-* 
-* 
-* 
-* 
-* 
-* 
-* 
-* 
-* 
-* 
-* 
-* 
-* 
-* 
-* 
-* 
-* 
-* 
-* 
-* 
-* 
-* 
-* 
-* 
+* https://www.hof-university.de/ueber-uns/aktuelles/news.html?tx_hochschulnews_hochschulnews%5Bnid%5D=662&tx_hochschulnews_hochschulnews%5BrPid%5D=1&cHash=2c4ebfc50b906599a032f682202ad04e
+* https://www.uni-jena.de/FAQ_Coronavirus
+* https://www.uni-kl.de/coronavirus/
+* http://www.hfm-karlsruhe.de/hfm/
+* https://www.hs-karlsruhe.de/home/
+* https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Risikogebiete.html
+* https://karlshochschule.de/de/hochschule/die-hochschule/neuigkeiten/detail/newdetail/temporaere-umstellung-auf-online-unterricht/
+* https://www.kit.edu/kit/25944.php
+* https://www.kit.edu/kit/25911.php
+* https://www.ph-karlsruhe.de/externe-und-gaeste/informationen-zum-coronavirus
+* http://www.kunstakademie-karlsruhe.de/mitteilungen/corona-virus/
+* https://www.cvjm-hochschule.de/presse/newsdetail/?tx_news_pi1%5Bnews%5D=117&cHash=bae87b68de93c7e937ec79bfe54fd87d
+* https://www.hfg-karlsruhe.de/aktuelles/corona/
+* https://www.kunsthochschulekassel.de/willkommen/news/aktuelle-informationen-zum-umgang-mit-dem-corona-virus.html
+* https://www.uni-kassel.de/uni/nc/aktuelles/aus-der-hochschule/besondere-meldungen/aktuelle-informationen-der-universitaet-kassel-zum-umgang-mit-dem-corona-virus/
+* https://www.hs-kempten.de/home/news-details/article/5143beginn-d.html
+* https://www.uni-kiel.de/de/coronavirus
+* https://www.fh-kiel.de/index.php?id=24319
+* https://muthesius-kunsthochschule.de/studieren/faq-zur-corona-krise/
+* https://www.hs-koblenz.de/home
+* https://www.uni-koblenz-landau.de/de
+* https://www.htwg-konstanz.de/coronavirus/faq/
+* https://www.uni-konstanz.de/universitaet/aktuelles-und-medien/coronavirus/
+* https://www.dshs-koeln.de/hochschule/campus-freizeit/sport-gesundheit/gesundheitsportal-der-deutschen-sporthochschule-koeln/informationen-zum-coronavirus-sars-cov-2/
+* https://www.th-koeln.de/hochschule/coronavirus_73114.php
 
 
 
