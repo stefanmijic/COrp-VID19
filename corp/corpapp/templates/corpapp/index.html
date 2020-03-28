@@ -1,0 +1,18 @@
+{% if unilist %}
+<table>
+	<tr>
+		<th>Name</th>
+		<th># Students</th>
+		<th># Staff</th>
+	</tr>
+	{% for u in unilist %}
+	<tr>
+		<td>{{ u.name }}</td>
+		<td>{{ u.nstudents }}</td>
+		<td>{{ u.nstaff }}</td>
+	</tr>
+	{% endfor %}
+</table>
+{% else %}
+Sorry, no Unis found...
+{% endif %}
