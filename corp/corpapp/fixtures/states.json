@@ -1,0 +1,101 @@
+[
+    {
+        "model": "corpapp.State",
+        "pk": 1,
+        "fields": {
+          "name": "Bern",
+          "abbreviation": "CH BRN",
+          "country": "1"
+        }
+    },
+    {
+        "model": "corpapp.State",
+        "pk": 2,
+        "fields": {
+          "name": "Waadt",
+          "abbreviation": "CH VD",
+          "country": "1"
+        }
+    },
+    {
+        "model": "corpapp.State",
+        "pk": 3,
+        "fields": {
+          "name": "Zurich",
+          "abbreviation": "CH ZH",
+          "country": "1"
+        }
+    },
+    {
+        "model": "corpapp.State",
+        "pk": 4,
+        "fields": {
+          "name": "Basel",
+          "abbreviation": "CH BSL ",
+          "country": "1"
+        }
+    },
+    {
+        "model": "corpapp.State",
+        "pk": 5,
+        "fields": {
+          "name": "Freiburg",
+          "abbreviation": "CH FR",
+          "country": "1"
+        }
+    },
+    {
+        "model": "corpapp.State",
+        "pk": 6,
+        "fields": {
+          "name": "Genf",
+          "abbreviation": "CH GVA",
+          "country": "1"
+        }
+    },
+    {
+        "model": "corpapp.State",
+        "pk": 7,
+        "fields": {
+          "name": "Tessin",
+          "abbreviation": "CH TI",
+          "country": "1"
+        }
+    },
+    {
+        "model": "corpapp.State",
+        "pk": 8,
+        "fields": {
+          "name": "Luzern",
+          "abbreviation": "CH LU",
+          "country": "1"
+        }
+    },
+    {
+        "model": "corpapp.State",
+        "pk": 9,
+        "fields": {
+          "name": "Neuenburg",
+          "abbreviation": "CH NE",
+          "country": "1"
+        }
+    },
+    {
+        "model": "corpapp.State",
+        "pk": 10,
+        "fields": {
+          "name": "St. Gallen",
+          "abbreviation": "CH SG",
+          "country": "1"
+        }
+    },
+    {
+        "model": "corpapp.State",
+        "pk": 11,
+        "fields": {
+          "name": "Wallis",
+          "abbreviation": "CH VS",
+          "country": "1"
+        }
+    }
+]
