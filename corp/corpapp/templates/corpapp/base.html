@@ -1,0 +1,40 @@
+{% load static %}
+
+{% block extrahead %}
+	<title>
+		{% block title %}{% endblock %}
+	</title>
+	<link rel="icon" href="{% static 'corpapp/logo.svg' %}" />
+	<link rel="stylesheet/less" href="{% static 'corpapp/style.less' %}" />
+	<script src="{% static 'corpapp/less.min.js' %}" ></script>
+	<script src="{% static 'corpapp/jquery-3.4.1.slim.js' %}"></script>
+	<script src="{% static 'corpapp/bootstrap.bundle.min.js' %}"></script>
+	<link rel="stylesheet" href="{% static 'corpapp/bootstrap.min.css' %}" />
+{% endblock %}
+
+<top-ribbon class="container">
+	<header class="row col">
+		{% block header %}{% endblock %}
+	</header>
+	<navbar class="row">
+		<nav-option class="col-sm">Home</nav-option>
+		<nav-option class="col-sm">Countries</nav-option>
+		<nav-option class="col-sm">States</nav-option>
+		<nav-option class="col-sm">Cities</nav-option>
+		<nav-option class="col-sm">Universities</nav-option>
+		<nav-option class="col-sm">Corporations</nav-option>
+	</navbar>
+</top-ribbon>
+
+<main-container class="container">
+
+	<div class="row"><div class="col">
+		{% block content %}{% endblock %}
+	</div></div>
+
+	<footer class="row">
+		<div class="col">
+			Made at CodeVsCorona | Powered by Django | Visit our GitHub
+		</div>
+	</footer>
+</main-container>
