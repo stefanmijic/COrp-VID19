@@ -23,16 +23,18 @@ header {
 	margin-bottom:	20px;
 }
 
-nav-option {
+#nav-option {
+	display:	block;
 	padding:	5px;
 	text-align:			center;
 	background-color:	@dark;
-	cursor:		pointer;
+	color:		@light;
 }
 
-nav-option:hover {
+#nav-option:hover {
 	background-color:	@light;
 	color:		@accent;
+	text-decoration:	none;
 }
 
 main-container {
@@ -46,4 +48,9 @@ footer {
 	background-color:	@medium;
 	color:		@light;
 	text-align:	center;
+}
+
+a, a:link, a:hover {
+	color:	@accent;
+	text-decoration:	none;
 }
