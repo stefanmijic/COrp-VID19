@@ -1,0 +1,268 @@
+[
+    {
+        "model": "corpapp.University",
+        "pk": 1,
+        "fields": {
+          "name": "École polytechnique fédérale de Lausanne",
+          "abbreviation": "EPFL",
+          "kind": "Universitaet",
+          "ownership": "Federal",
+          "n_students": 11134,
+          "n_staff": 5713,
+          "n_profs": 319,
+          "state": 2,
+          "city": "Lausanne",
+          "budget": 953000000,
+          "corona_page": "https://www.epfl.ch/campus/security-safety/en/health/coronavirus-covid19/",
+          "main_page": "https://www.epfl.ch/en/",
+          "quality": "High"
+        }
+
+    },
+    {
+        "model": "corpapp.University",
+        "pk": 2,
+        "fields": {
+          "name": "Eidgenössische Technische Hochschule Zürich ",
+          "abbreviation": "ETHZ",
+          "kind": "Universitaet",
+          "ownership": "Federal",
+          "n_students": 20607,
+          "n_staff": 9281,
+          "n_profs": 531,
+          "state": 3,
+          "city": "Zurich",
+          "budget": 1885000000,
+          "corona_page": "https://ethz.ch/services/de/news-und-veranstaltungen/coronavirus.html",
+          "main_page": "https://ethz.ch/de.html",
+          "quality": "High"
+        }
+    },
+    {
+        "model": "corpapp.University",
+        "pk": 3,
+        "fields": {
+          "name": "Universität Basel",
+          "abbreviation": "UNI Bas",
+          "kind": "Universitaet",
+          "ownership": "state",
+          "n_students": 12673,
+          "n_staff": 6200,
+          "n_profs": 370,
+          "state": 4,
+          "city": "Basel",
+          "budget": 730000000,
+          "corona_page": "https://www.unibas.ch/de/Aktuell/Coronavirus.html",
+          "main_page": "https://www.unibas.ch/de",
+          "quality": "High"
+        }
+    },
+    {
+        "model": "corpapp.University",
+        "pk": 4,
+        "fields": {
+          "name": "Universität Bern",
+          "abbreviation": "UB",
+          "kind": "Universitaet",
+          "ownership": "state",
+          "n_students": 18400,
+          "n_staff": 4610,
+          "n_profs": 575,
+          "state": 1,
+          "city": "Bern",
+          "budget": 884000000,
+          "corona_page": "https://www.unibe.ch/coronavirus/index_ger.html",
+          "main_page": "https://www.unibe.ch/",
+          "quality": "High"
+        }
+    },
+    {
+        "model": "corpapp.University",
+        "pk": 5,
+        "fields": {
+          "name": "Universität Freiburg/Université de Fribourg ",
+          "abbreviation": "UNI FR",
+          "kind": "Universitaet",
+          "ownership": "state",
+          "n_students": 10154,
+          "n_staff": 1989,
+          "n_profs": 264,
+          "state": 5,
+          "city": "Freiburg",
+          "budget": 222000000,
+          "corona_page": "https://www3.unifr.ch/home/de/coronavirus/",
+          "main_page": "https://www.unifr.ch/home/de.html",
+          "quality": "High"
+        }
+    },
+    {
+        "model": "corpapp.University",
+        "pk": 6,
+        "fields": {
+          "name": "Université de Genève",
+          "abbreviation": "UDG",
+          "kind": "Universitaet",
+          "ownership": "state",
+          "n_students": 17271,
+          "n_staff": 4200,
+          "n_profs": 762,
+          "state": 6,
+          "city": "Genf",
+          "budget": 750000000,
+          "corona_page": "https://www.unige.ch/coronavirus/en/",
+          "main_page": "https://www.unige.ch/",
+          "quality": "High"
+        }
+    },
+    {
+        "model": "corpapp.University",
+        "pk": 7,
+        "fields": {
+          "name": "Université de Lausanne",
+          "abbreviation": "UNIL",
+          "kind": "Universitaet",
+          "ownership": "state",
+          "n_students": 11500,
+          "n_staff": 3723,
+          "n_profs": 452,
+          "state": 2,
+          "city": "Lausanne",
+          "budget": 374900000,
+          "corona_page": "https://www.unil.ch/coronavirus/en/home.html",
+          "main_page": "https://www.unil.ch/index.html",
+          "quality": "Medium"
+        }
+    },
+    {
+        "model": "corpapp.University",
+        "pk": 8,
+        "fields": {
+          "name": "Università della Svizzera italiana",
+          "abbreviation": "USI",
+          "kind": "Universitaet",
+          "ownership": "state",
+          "n_students": 2862,
+          "n_staff": 805,
+          "n_profs": 123,
+          "state": 7,
+          "city": "Lugano",
+          "budget": 93700000,
+          "corona_page": "https://www.usi.ch/en/feeds/12867",
+          "main_page": "https://www.usi.ch/en",
+          "quality": "High"
+        }
+    },
+    {
+        "model": "corpapp.University",
+        "pk": 9,
+        "fields": {
+          "name": "Universität Luzern",
+          "abbreviation": "UNILu",
+          "kind": "Universitaet",
+          "ownership": "state",
+          "n_students": 3007,
+          "n_staff": 539,
+          "n_profs": 70,
+          "state": 8,
+          "city": "Luzern",
+          "budget": 18687715,
+          "corona_page": "https://www.unilu.ch/coronavirus/",
+          "main_page": "https://www.unilu.ch/",
+          "quality": "High"
+        }
+    },
+    {
+        "model": "corpapp.University",
+        "pk": 10,
+        "fields": {
+          "name": "Université Neuchâtel",
+          "abbreviation": "unine",
+          "kind": "Universitaet",
+          "ownership": "state",
+          "n_students": 4282,
+          "n_staff": 782,
+          "n_profs": 114,
+          "state": 9,
+          "city": "Neuenburg",
+          "budget": 141800000,
+          "corona_page": "https://www.unine.ch/unine/home/luniversite/info-coronavirus.html",
+          "main_page": "https://www.unine.ch/unine/home.html",
+          "quality": "Low"
+        }
+    },
+    {
+        "model": "corpapp.University",
+        "pk": 11,
+        "fields": {
+          "name": "Universität St. Gallen",
+          "abbreviation": "HSG",
+          "kind": "Universitaet",
+          "ownership": "state",
+          "n_students": 8600,
+          "n_staff": 3204,
+          "n_profs": 102,
+          "state": 10,
+          "city": "St. Gallen",
+          "budget": 245600000,
+          "corona_page": "https://www.unisg.ch/de/wissen/newsroom/aktuell/rssnews/campus/2020/aktuelle-informationen-coronavirus-23maerz2020",
+          "main_page": "https://www.unisg.ch/",
+          "quality": "Medium"
+        }
+    },
+    {
+        "model": "corpapp.University",
+        "pk": 12,
+        "fields": {
+          "name": "Univerität Zürich",
+          "abbreviation": "UZH",
+          "kind": "Universitaet",
+          "ownership": "state",
+          "n_students": 25217,
+          "n_staff": 9246,
+          "n_profs": 685,
+          "state": 3,
+          "city": "Zurich",
+          "budget": 1377000000,
+          "corona_page": "https://www.su.uzh.ch/de/Coronavirus.html",
+          "main_page": "https://www.uzh.ch/de.html",
+          "quality": "High"
+        }
+    },
+    {
+        "model": "corpapp.University",
+        "pk": 13,
+        "fields": {
+          "name": "Stiftung Universitäre Fernstudien Schweiz",
+          "kind": "Universitaet",
+          "ownership": "state",
+          "n_students": 1600,
+          "n_staff": 300,
+          "n_profs": 250,
+          "state": 11,
+          "city": "Brig",
+          "budget": 13664793,
+          "corona_page": "https://fernuni.ch/ueber-uns/coronavirus-die-fernuni-schweiz-informiert/",
+          "main_page": "https://fernuni.ch/",
+          "quality": "High"
+        }
+    },
+    {
+        "model": "corpapp.University",
+        "pk": 14,
+        "fields": {
+          "name": "Institut de hautes études internationales et du développement",
+          "abbreviation": "IHEID",
+          "kind": "Universitaet",
+          "ownership": "state",
+          "n_students": 951,
+          "n_staff": 119,
+          "n_profs": 73,
+          "state": 6,
+          "city": "Genf",
+          "budget": 96302587,
+          "corona_page": "https://graduateinstitute.ch/novel-coronavirus2019",
+          "main_page": "https://graduateinstitute.ch/",
+          "quality": "High"
+        }
+    }
+]
