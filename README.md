@@ -1,3 +1,5 @@
+![](https://raw.githubusercontent.com/stefanmijic/COrp-VID19/master/logo.png?token=AFQO3L3G2H76Q34IVKBKBHK6RBCB4)
+
 # COrp-VID19
 Corporate COVID-19 Response Visualization
 
