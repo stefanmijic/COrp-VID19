@@ -12,6 +12,7 @@ class University(models.Model):
     budget = models.IntegerField()
     corona_page = models.CharField(max_length=600)
     main_page = models.CharField(max_length=12)
+    quality = models.CharField(max_length=12)
 
     def __str__(self):
         return self.name
