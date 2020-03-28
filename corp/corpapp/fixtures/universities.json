@@ -15,7 +15,7 @@
           "budget": 953000000,
           "corona_page": "https://www.epfl.ch/campus/security-safety/en/health/coronavirus-covid19/",
           "main_page": "https://www.epfl.ch/en/",
-          "quality": "High"
+          "page_quality": "High"
         }
 
     },
@@ -35,7 +35,7 @@
           "budget": 1885000000,
           "corona_page": "https://ethz.ch/services/de/news-und-veranstaltungen/coronavirus.html",
           "main_page": "https://ethz.ch/de.html",
-          "quality": "High"
+          "page_quality": "High"
         }
     },
     {
@@ -54,7 +54,7 @@
           "budget": 730000000,
           "corona_page": "https://www.unibas.ch/de/Aktuell/Coronavirus.html",
           "main_page": "https://www.unibas.ch/de",
-          "quality": "High"
+          "page_quality": "High"
         }
     },
     {
@@ -73,7 +73,7 @@
           "budget": 884000000,
           "corona_page": "https://www.unibe.ch/coronavirus/index_ger.html",
           "main_page": "https://www.unibe.ch/",
-          "quality": "High"
+          "page_quality": "High"
         }
     },
     {
@@ -92,7 +92,7 @@
           "budget": 222000000,
           "corona_page": "https://www3.unifr.ch/home/de/coronavirus/",
           "main_page": "https://www.unifr.ch/home/de.html",
-          "quality": "High"
+          "page_quality": "High"
         }
     },
     {
@@ -111,7 +111,7 @@
           "budget": 750000000,
           "corona_page": "https://www.unige.ch/coronavirus/en/",
           "main_page": "https://www.unige.ch/",
-          "quality": "High"
+          "page_quality": "High"
         }
     },
     {
@@ -130,7 +130,7 @@
           "budget": 374900000,
           "corona_page": "https://www.unil.ch/coronavirus/en/home.html",
           "main_page": "https://www.unil.ch/index.html",
-          "quality": "Medium"
+          "page_quality": "Medium"
         }
     },
     {
@@ -149,7 +149,7 @@
           "budget": 93700000,
           "corona_page": "https://www.usi.ch/en/feeds/12867",
           "main_page": "https://www.usi.ch/en",
-          "quality": "High"
+          "page_quality": "High"
         }
     },
     {
@@ -168,7 +168,7 @@
           "budget": 18687715,
           "corona_page": "https://www.unilu.ch/coronavirus/",
           "main_page": "https://www.unilu.ch/",
-          "quality": "High"
+          "page_quality": "High"
         }
     },
     {
@@ -187,7 +187,7 @@
           "budget": 141800000,
           "corona_page": "https://www.unine.ch/unine/home/luniversite/info-coronavirus.html",
           "main_page": "https://www.unine.ch/unine/home.html",
-          "quality": "Low"
+          "page_quality": "Low"
         }
     },
     {
@@ -206,7 +206,7 @@
           "budget": 245600000,
           "corona_page": "https://www.unisg.ch/de/wissen/newsroom/aktuell/rssnews/campus/2020/aktuelle-informationen-coronavirus-23maerz2020",
           "main_page": "https://www.unisg.ch/",
-          "quality": "Medium"
+          "page_quality": "Medium"
         }
     },
     {
@@ -225,7 +225,7 @@
           "budget": 1377000000,
           "corona_page": "https://www.su.uzh.ch/de/Coronavirus.html",
           "main_page": "https://www.uzh.ch/de.html",
-          "quality": "High"
+          "page_quality": "High"
         }
     },
     {
@@ -243,7 +243,7 @@
           "budget": 13664793,
           "corona_page": "https://fernuni.ch/ueber-uns/coronavirus-die-fernuni-schweiz-informiert/",
           "main_page": "https://fernuni.ch/",
-          "quality": "High"
+          "page_quality": "High"
         }
     },
     {
@@ -262,7 +262,7 @@
           "budget": 96302587,
           "corona_page": "https://graduateinstitute.ch/novel-coronavirus2019",
           "main_page": "https://graduateinstitute.ch/",
-          "quality": "High"
+          "page_quality": "High"
         }
     }
 ]
