@@ -155,6 +155,63 @@
 * https://www.hs-geisenheim.de/corona-virus/
 * https://www.hspv.nrw.de/kalender/termine/hochschultag-2020/
 * https://www.w-hs.de/erkunden/praesidium/corona/
+* https://www.tmasgff.de/covid-19
+* https://www.uni-giessen.de/coronavirus/index.html
+* https://www.thm.de/site/quicklink/studieninfos/coronavirus.html
+* https://www.uni-goettingen.de/de/622964.html
+* https://www.pfh.de/aktuelle-informationen-zum-coronavirus.html
+* https://www.uni-greifswald.de/universitaet/information/aktuelles/faq-zur-corona-pandemie/
+* http://www.fh-guestrow.de/Corona-Virus/
+* https://www.fernuni-hagen.de/universitaet/themen/sicherheitshinweise-zum-corona-virus.shtml
+* https://www.uni-halle.de/coronavirus/
+* https://www.law-school.de/coronavirus
+* https://www.brand-university.de/coronavirus-update/
+* https://www.ebc-hochschule.de/news-presse/news/news-detail/article/wichtig-voruebergehende-schliessung-der-ebc-hochschule-in-hamburg-und-duesseldorf.html
+* https://www.ev-hochschule-hh.de/hochschule/faq-zum-coronavirus/
+* https://www.hcu-hamburg.de/universitaet/services-und-kontakt/aktuelle-informationen/
+* https://www.hfh-fernstudium.de/aktuelles-hfh-hinweise-coronavirus
+* https://www.hsba.de/aktuelles/news/detail/coronakrise-einstellung-des-praesenzbetriebs/
+* https://www.haw-hamburg.de/coronavirus.html
+* https://www.hfbk-hamburg.de/de/aktuelles/faq-zum-coronavirus-f%C3%BCr-studierende-und-bewerberinnen/
+* https://www.hfmt-hamburg.de/faq-coronavirus/
+* https://www.hamburg.de/coronavirus/
+* https://www.tuhh.de/tuhh/uni/aktuelles/covid-19.html
+* https://www.uni-hamburg.de/newsroom/intern/2020/0131-corona-faq.html
+* https://www.the-klu.org/article/measures-taken-due-to-the-coronavirus/
+* https://www.medicalschool-hamburg.de/fileadmin/Daten/MSH/News/2020/Corona_14032020_MSH.pdf
+* https://www.hshl.de/hochschule-hamm-lippstadt/news-presse-blog/news/aktuelle-informationen-zum-umgang-mit-dem-coronavirus-an-der-hshl/
+* https://www.uni-hannover.de/de/universitaet/aktuelles/corona/
+* https://www.hmtm-hannover.de/de/hochschule/informationen-zum-corona-virus-sars-cov-2-und-zur-erkrankung-covid-19/
+* https://www.nsi-hsvn.de/aktuelles/detail/corona-virus.html
+* http://www.leibniz-fh.de/termine/termindetail/?tx_ttnews%5Btt_news%5D=240&cHash=06743861b413e542f61ab8d41dcd5c61
+* https://www.hs-hannover.de/ueber-uns/organisation/oem/aktuelles/aktuelles-zum-coronavirus-25032020/
+* https://www.mhh.de/presse/presseinformationen/news-detailansicht?tx_news_pi1%5Baction%5D=detail&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Bnews%5D=127&cHash=e1d7451ae72b33e475e3e8241a639441
+* https://www.tiho-hannover.de/aktuelles-presse/sars-cov-2/
+* https://www.fh-westkueste.de/hochschulprofil/aktuelles/
+* http://www.hfjs.eu/md/hfjs/aktuell/2020_03_16_sofortmassnahmen_an_der_hochschule_fur_judische_studien_heidelberg.pdf
+* https://www.hfk-heidelberg.de/html/aktuell/aktuell_u.html?&m=32122&cataktuell=&m=31583&artikel=22943&stichwort_aktuell=&default=true
+* https://www.ph-heidelberg.de/coronavirus.html
+* https://www.uni-heidelberg.de/de/newsroom/informationen-zum-coronavirus
+* https://www.hochschule-heidelberg.de/de/landingpage/umgang-mit-dem-coronavirus-an-der-hshd/
+* https://www.hs-heilbronn.de/corona/faq
+* https://www.uni-hildesheim.de/neuigkeiten/coronavirus-informationen-und-wichtige-hinweise/
+* https://www.hawk.de/de/newsportal/themen/corona
+* https://www.hs-fresenius.de/information-corona-virus/
+* https://www.tu-ilmenau.de/universitaet/corona-virus/
+* https://www4.fh-swf.de/de/home/beschaeftigte/organisation_1/beauftragteundvertretung/arbeitssicherheit/corona/coronavirus.php
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
 * 
 * 
 * 
@@ -173,3 +230,6 @@
 ## Bad Sources
 * https://www.kirchenmusik-dresden.de/
 * https://th-ewersbach.de/
+* https://www.fh-hamm.de/de/#
+* https://www.fh-hermannsburg.de/
+* http://www.hr-nord.niedersachsen.de/index.php?id=49
