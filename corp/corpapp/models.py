@@ -13,7 +13,31 @@ class University(models.Model):
     budget = models.IntegerField()
     corona_page = models.CharField(max_length=600)
     main_page = models.CharField(max_length=128)
-    quality = models.CharField(max_length=12)
+    page_quality = models.CharField(max_length=12)
+
+    def __str__(self):
+        return self.name
+
+class Corporation(models.Model):
+    name = models.CharField(max_length=128)
+    kind = models.CharField(max_length=32)
+    n_employees = models.IntegerField()
+    state = models.ForeignKey('State', on_delete=models.CASCADE,)
+    city = models.CharField(max_length=64)
+    stock_price = models.FloatField()
+    corona_page = models.CharField(max_length=600)
+    main_page = models.CharField(max_length=128)
+    page_quality = models.CharField(max_length=12)
+
+    def __str__(self):
+        return self.name
+
+
+class Country(models.Model):
+    name = models.CharField(max_length=128)
+    abbreviation = models.CharField(max_length=3)
+    bip = models.IntegerField()
+    people = models.IntegerField()
 
     def __str__(self):
         return self.name
@@ -23,15 +47,16 @@ class State(models.Model):
     name = models.CharField(max_length=128)
     abbreviation = models.CharField(max_length=8)
     country = models.ForeignKey('Country', on_delete=models.CASCADE,)
-    
-    def __str__(self):
-        return self.abbreviation
+    people = models.IntegerField()
 
-class Country(models.Model):
+    def __str__(self):
+        return self.name
+
+
+class City(models.Model):
     name = models.CharField(max_length=128)
-    abbreviation = models.CharField(max_length=3)
-    bip = models.IntegerField()
+    state = models.ForeignKey('State', on_delete=models.CASCADE,)
+    people = models.IntegerField()
 
     def __str__(self):
-        return self.abbreviation
-
+        return self.name

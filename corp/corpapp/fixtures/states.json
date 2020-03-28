@@ -3,99 +3,270 @@
         "model": "corpapp.State",
         "pk": 1,
         "fields": {
-          "name": "Bern",
-          "abbreviation": "CH BRN",
-          "country": "1"
+        "name": "Bern",
+        "abbreviation": "CH BE",
+        "country": 1,
+        "people": 1034977
         }
     },
     {
         "model": "corpapp.State",
         "pk": 2,
         "fields": {
-          "name": "Waadt",
-          "abbreviation": "CH VD",
-          "country": "1"
+        "name": "Waadt",
+        "abbreviation": "CH VD",
+        "country": 1,
+        "people": 799145
         }
     },
     {
         "model": "corpapp.State",
         "pk": 3,
         "fields": {
-          "name": "Zurich",
-          "abbreviation": "CH ZH",
-          "country": "1"
+        "name": "Zurich",
+        "abbreviation": "CH ZH",
+        "country": 1,
+        "people": 1520968
         }
     },
     {
         "model": "corpapp.State",
         "pk": 4,
         "fields": {
-          "name": "Basel",
-          "abbreviation": "CH BSL ",
-          "country": "1"
+        "name": "Basel",
+        "abbreviation": "CH BSL ",
+        "country": 1,
+        "people": 288132
         }
     },
     {
         "model": "corpapp.State",
         "pk": 5,
         "fields": {
-          "name": "Freiburg",
-          "abbreviation": "CH FR",
-          "country": "1"
+        "name": "Freiburg",
+        "abbreviation": "CH FR",
+        "country": 1,
+        "people": 318714
         }
     },
     {
         "model": "corpapp.State",
         "pk": 6,
         "fields": {
-          "name": "Genf",
-          "abbreviation": "CH GVA",
-          "country": "1"
+        "name": "Genf",
+        "abbreviation": "CH GVA",
+        "country": 1,
+        "people": 499480
         }
     },
     {
         "model": "corpapp.State",
         "pk": 7,
         "fields": {
-          "name": "Tessin",
-          "abbreviation": "CH TI",
-          "country": "1"
+        "name": "Tessin",
+        "abbreviation": "CH TI",
+        "country": 1,
+        "people": 353343
         }
     },
     {
         "model": "corpapp.State",
         "pk": 8,
         "fields": {
-          "name": "Luzern",
-          "abbreviation": "CH LU",
-          "country": "1"
+        "name": "Luzern",
+        "abbreviation": "CH LU",
+        "country": 1,
+        "people": 409557
         }
     },
     {
         "model": "corpapp.State",
         "pk": 9,
         "fields": {
-          "name": "Neuenburg",
-          "abbreviation": "CH NE",
-          "country": "1"
+        "name": "Neuenburg",
+        "abbreviation": "CH NE",
+        "country": 1,
+        "people": 176850
         }
     },
     {
         "model": "corpapp.State",
         "pk": 10,
         "fields": {
-          "name": "St. Gallen",
-          "abbreviation": "CH SG",
-          "country": "1"
+        "name": "St. Gallen",
+        "abbreviation": "CH SG",
+        "country": 1,
+        "people": 507697
         }
     },
     {
         "model": "corpapp.State",
         "pk": 11,
         "fields": {
-          "name": "Wallis",
-          "abbreviation": "CH VS",
-          "country": "1"
+        "name": "Wallis",
+        "abbreviation": "CH VS",
+        "country": 1,
+        "people": 343955
+        }
+    },
+    {
+        "model": "corpapp.State",
+        "pk": 12,
+        "fields": {
+        "name": "Nordrhein-Westfalen",
+        "abbreviation": "DE NW",
+        "country": 2,
+        "people": 17932651
+        }
+    },
+    {
+        "model": "corpapp.State",
+        "pk": 13,
+        "fields": {
+        "name": "Baden-Württemberg",
+        "abbreviation": "DE BW",
+        "country": 2,
+        "people": 11069533
+        }
+    },
+    {
+        "model": "corpapp.State",
+        "pk": 14,
+        "fields": {
+        "name": "Schleswig-Holstein",
+        "abbreviation": "DE SH",
+        "country": 2,
+        "people": 2896712
+        }
+    },
+    {
+        "model": "corpapp.State",
+        "pk": 15,
+        "fields": {
+        "name": "Bayern",
+        "abbreviation": "DE BY",
+        "country": 2,
+        "people": 13076721
+        }
+    },
+    {
+        "model": "corpapp.State",
+        "pk": 16,
+        "fields": {
+        "name": "Sachsen-Anhalt",
+        "abbreviation": "DE ST",
+        "country": 2,
+        "people": 2208321
+        }
+    },
+    {
+        "model": "corpapp.State",
+        "pk": 17,
+        "fields": {
+        "name": "Thüringen",
+        "abbreviation": "DE TH",
+        "country": 2,
+        "people": 2134393
+        }
+    },
+    {
+        "model": "corpapp.State",
+        "pk": 18,
+        "fields": {
+        "name": "Hessen",
+        "abbreviation": "DE HE",
+        "country": 2,
+        "people": 6265809
+        }
+    },
+    {
+        "model": "corpapp.State",
+        "pk": 19,
+        "fields": {
+        "name": "Berlin",
+        "abbreviation": "DE BE",
+        "country": 2,
+        "people": 3644826
+        }
+    },
+    {
+        "model": "corpapp.State",
+        "pk": 20,
+        "fields": {
+        "name": "Rheinland-Pfalz",
+        "abbreviation": "DE RP",
+        "country": 2,
+        "people": 4084844
+        }
+    },
+    {
+        "model": "corpapp.State",
+        "pk": 22,
+        "fields": {
+        "name": "Brandenburg",
+        "abbreviation": "DE BB",
+        "country": 2,
+        "people": 2511917
+        }
+    },
+    {
+        "model": "corpapp.State",
+        "pk": 22,
+        "fields": {
+        "name": "Niedersachsen",
+        "abbreviation": "DE NI",
+        "country": 2,
+        "people": 7982448
+        }
+    },
+    {
+        "model": "corpapp.State",
+        "pk": 23,
+        "fields": {
+        "name": "Bremen",
+        "abbreviation": "DE HB",
+        "country": 2,
+        "people": 682986
+        }
+    },
+    {
+        "model": "corpapp.State",
+        "pk": 24,
+        "fields": {
+        "name": "Sachsen",
+        "abbreviation": "DE SN",
+        "country": 2,
+        "people": 4077937
+        }
+    },
+    {
+        "model": "corpapp.State",
+        "pk": 25,
+        "fields": {
+        "name": "Mecklenburg-Vorpommern",
+        "abbreviation": "DE MV",
+        "country": 2,
+        "people": 1609675
+        }
+    },
+    {
+        "model": "corpapp.State",
+        "pk": 26,
+        "fields": {
+        "name": "Hamburg",
+        "abbreviation": "DE HH",
+        "country": 2,
+        "people": 1841179
+        }
+    },
+    {
+        "model": "corpapp.State",
+        "pk": 27,
+        "fields": {
+        "name": "Saarland",
+        "abbreviation": "DE SL",
+        "country": 2,
+        "people": 990509
         }
     }
 ]

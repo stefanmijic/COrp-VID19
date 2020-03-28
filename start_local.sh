@@ -10,4 +10,4 @@ python corp/manage.py loaddata states.json
 python corp/manage.py loaddata universities.json
 
 # start our server
-python corp/manage.py runserver 0.0.0.0:8000
+python corp/manage.py runserver

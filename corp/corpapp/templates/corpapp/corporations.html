@@ -1,0 +1,35 @@
+{% extends "corpapp/base.html" %}
+{% load humanize %}
+
+
+{% block title %}COrpVID19 | Universities{% endblock %}
+
+{% block header %}University responses{% endblock %}
+
+
+{% block content %}
+
+{% if corplist %}
+<table class="datatable">
+	<thead><tr>
+		<th>Name</th>
+		<th>State</th>
+		<th>City</th>
+		<th>Employees</th>
+		<th>Stock Price</th>
+	</tr></thead>
+	{% for c in corplist %}
+	<tr>
+		<td><a href="{{ c.main_page }}">{{ c.name }}</a></td>
+		<td><a>{{ c.state }}</a></td>
+		<td><a>{{ c.city }}</a></td>
+		<td>{{ c.n_employees|intcomma }}</td>
+		<td>{{ c.stock_price|floatformat:2|intcomma }}</td>
+	</tr>
+	{% endfor %}
+</table>
+{% else %}
+Sorry, no Unis found...
+{% endif %}
+
+{% endblock content %}

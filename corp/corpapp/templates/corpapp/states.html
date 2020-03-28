@@ -1,0 +1,31 @@
+{% extends "corpapp/base.html" %}
+{% load humanize %}
+
+
+{% block title %}COrpVID19 | States{% endblock %}
+
+{% block header %}State responses{% endblock %}
+
+
+{% block content %}
+
+{% if stlist %}
+<table class="datatable">
+	<thead><tr>
+		<th>Name</th>
+		<th>Country</th>
+		<th>People</th>
+	</tr></thead>
+	{% for s in stlist %}
+	<tr>
+		<td>{{ s.name }}</td>
+		<td>{{ s.country }}</td>
+		<td>{{ s.people|intcomma }}</td>
+	</tr>
+	{% endfor %}
+</table>
+{% else %}
+Sorry, no States found...
+{% endif %}
+
+{% endblock content %}
