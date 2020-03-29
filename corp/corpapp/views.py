@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from .models import Country, State, City, University, Corporation
+from .models import Country, State, City, University, Corporation, Measure, Implemented
 from django.db.models.functions import Lower
 
 def index(request):
@@ -30,7 +30,8 @@ def universities(request):
     return render(request, 'corpapp/universities.html', context)
 
 def university_detail(request, aid):
-    context = {'uni': University.objects.get(id=aid)}
+    implements = Implemented.objects.filter(entity_type=0, entity_id=aid).order_by('date')
+    context = {'uni': University.objects.get(id=aid), 'impl': implements}
     return render(request, 'corpapp/university_detail.html', context)
 
 def corporations(request):

@@ -1,0 +1,37 @@
+[
+	{
+		"model":	"corpapp.Measure",
+		"pk":		1,
+		"fields":	{
+			"name":		"HomeOffice"
+		}
+	},
+	{
+		"model":	"corpapp.Measure",
+		"pk":		2,
+		"fields":	{
+			"name":		"Hygiene Information"
+		}
+	},
+	{
+		"model":	"corpapp.Measure",
+		"pk":		3,
+		"fields":	{
+			"name":		"Closed Buildings"
+		}
+	},
+	{
+		"model":	"corpapp.Measure",
+		"pk":		4,
+		"fields":	{
+			"name":		"Stopped Lectures"
+		}
+	},
+	{
+		"model":	"corpapp.Measure",
+		"pk":		5,
+		"fields":	{
+			"name":		"Closed Cafeteria"
+		}
+	}
+]

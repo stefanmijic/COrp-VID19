@@ -60,3 +60,18 @@ class City(models.Model):
 
     def __str__(self):
         return self.name
+
+class Measure(models.Model):
+    name = models.CharField(max_length=64)
+
+    def __str__(self):
+        return self.name
+
+class Implemented(models.Model):
+    entity_type = models.IntegerField() # Should be 0 for unis, 1 for corps
+    entity_id = models.ForeignKey("University", on_delete=models.CASCADE)
+    measure = models.ForeignKey("Measure", on_delete=models.CASCADE)
+    date = models.DateField()
+
+    def __str__(self):
+        return self.name

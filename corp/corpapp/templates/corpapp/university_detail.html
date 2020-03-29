@@ -35,4 +35,19 @@
 </div>
 </div>
 
+<div class="container">
+	<div class="row col dark">Measures implemented:</div>
+	{% if impl %}
+		{% for i in impl %}
+		<div class="row">
+			<div class="col">{{ i.measure.name }}</div>
+			<div class="col">{{ i.date }}</div>
+		</div>
+		{% endfor %}
+	{% else %}
+		<div class="row col">No measures found</div>
+	{% endif %}
+</div>
+
+
 {% endblock content %}

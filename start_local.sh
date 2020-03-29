@@ -1,13 +1,15 @@
 #/bin/bash
 
 # apply missing migrations if neccessary
-python corp/manage.py migrate
+python3 corp/manage.py migrate
 
 # get the data
 # You have to load them in this order or you break stuff
-python corp/manage.py loaddata countries.json
-python corp/manage.py loaddata states.json
-python corp/manage.py loaddata universities.json
+python3 corp/manage.py loaddata countries.json
+python3 corp/manage.py loaddata states.json
+python3 corp/manage.py loaddata universities.json
+python3 corp/manage.py loaddata measures.json
+python3 corp/manage.py loaddata implemented.json
 
 # start our server
-python corp/manage.py runserver
+python3 corp/manage.py runserver

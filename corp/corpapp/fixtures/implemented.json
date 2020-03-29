@@ -1,0 +1,92 @@
+[
+	{
+		"model":	"corpapp.Implemented",
+		"pk":		1,
+		"fields":	{
+			"entity_type":	0,
+			"entity_id":	46,
+			"measure":		2,
+			"date":			"2020-03-06"
+		}
+	},
+	{
+		"model":	"corpapp.Implemented",
+		"pk":		2,
+		"fields":	{
+			"entity_type":	0,
+			"entity_id":	46,
+			"measure":		3,
+			"date":			"2020-03-23"
+		}
+	},
+	{
+		"model":	"corpapp.Implemented",
+		"pk":		3,
+		"fields":	{
+			"entity_type":	0,
+			"entity_id":	46,
+			"measure":		4,
+			"date":			"2020-03-13"
+		}
+	},
+	{
+		"model":	"corpapp.Implemented",
+		"pk":		4,
+		"fields":	{
+			"entity_type":	0,
+			"entity_id":	46,
+			"measure":		5,
+			"date":			"2020-03-17"
+		}
+	},
+	{
+		"model":	"corpapp.Implemented",
+		"pk":		5,
+		"fields":	{
+			"entity_type":	0,
+			"entity_id":	89,
+			"measure":		4,
+			"date":			"2020-03-11"
+		}
+	},
+	{
+		"model":	"corpapp.Implemented",
+		"pk":		6,
+		"fields":	{
+			"entity_type":	0,
+			"entity_id":	89,
+			"measure":		2,
+			"date":			"2020-03-11"
+		}
+	},
+	{
+		"model":	"corpapp.Implemented",
+		"pk":		7,
+		"fields":	{
+			"entity_type":	0,
+			"entity_id":	112,
+			"measure":		4,
+			"date":			"2020-03-13"
+		}
+	},
+	{
+		"model":	"corpapp.Implemented",
+		"pk":		8,
+		"fields":	{
+			"entity_type":	0,
+			"entity_id":	112,
+			"measure":		3,
+			"date":			"2020-03-17"
+		}
+	},
+	{
+		"model":	"corpapp.Implemented",
+		"pk":		9,
+		"fields":	{
+			"entity_type":	0,
+			"entity_id":	112,
+			"measure":		1,
+			"date":			"2020-03-16"
+		}
+	}
+]
