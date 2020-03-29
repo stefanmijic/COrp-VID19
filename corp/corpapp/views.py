@@ -11,7 +11,10 @@ def countries(request):
     return render(request, 'corpapp/countries.html', context)
 
 def country_detail(request, country):
-    context = {'country': country}
+    country = Country.objects.get(name=country)
+    states = State.objects.filter(country=country)
+    unis = [x for x in University.objects.all() if x.state.country == country]
+    context = {'country': country, 'states': states, 'unis': unis}
     return render(request, 'corpapp/country_detail.html', context)
 
 def states(request):
@@ -41,6 +44,12 @@ def corporations(request):
 
 def measures(request):
     mlist = Measure.objects.order_by(Lower('name'))
+    nunis = len(University.objects.all())
+    uilist = [len(Implemented.objects.filter(entity_type=0, measure=x))/nunis*100 for x in mlist]
+    ncorps = len(Corporation.objects.all())
+    ncorps = 1 if ncorps == 0 else ncorps
+    cilist = [len(Implemented.objects.filter(entity_type=1, measure=x))/ncorps*100 for x in mlist]
+    mlist = zip(mlist, uilist, cilist)
     context = {'mlist': mlist, 'active_index': '3'}
     return render(request, 'corpapp/measures.html', context)
 

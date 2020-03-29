@@ -24,7 +24,6 @@
 		$(document).ready(function() {
 			$('.datatable').DataTable();
 			{% if active_index %}
-				console.log({{active_index}});
 				$('.nav-option:eq({{active_index}})').addClass("active");
 			{% endif %}
 		} );
