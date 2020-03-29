@@ -23,23 +23,11 @@
 	<script>
 		$(document).ready(function() {
 			$('.datatable').DataTable();
+			{% if active_index %}
+				console.log({{active_index}});
+				$('.nav-option:eq({{active_index}})').addClass("active");
+			{% endif %}
 		} );
-
-		// Get the container element
-		let navOptionContainer = $(document).getElementById("nav-bar");
-
-		// Get all links with class="nav-option" inside the container
-		let opts = navOptionContainer.getElementsByClassName("nav-option");
-
-		// Loop through the options and add the active class to the current/clicked otpion
-		// something seems to be buggy here...
-		for (let i = 0; i < opts.length; i++) {
-		  opts[i].addEventListener("click", function() {
-		    let current = $(document).getElementsByClassName("active");
-		    current[0].className = current[0].className.replace(" active", "");
-		    this.className += " active";
-      });
-		}
 	</script>
 
 	{% block bonushead %}{% endblock %}
@@ -50,10 +38,11 @@
 		{% block header %}{% endblock %}
 	</header>
 	<navbar class="row" id="nav-bar">
-		<a href="/" id="nav-option" class="nav-option col-sm active">Home</a>
+		<a href="/" id="nav-option" class="nav-option col-sm">Home</a>
 		<a href="/countries" id="nav-option" class="nav-option col-sm">Countries</a>
 		<a href="/states" id="nav-option" class="nav-option col-sm">States</a>
-		<a href="/cities" id="nav-option" class="nav-option col-sm">Cities</a>
+		<!--<a href="/cities" id="nav-option" class="nav-option col-sm">Cities</a>-->
+		<a href="/measures" id="nav-option" class="nav-option col-sm">Measures</a>
 		<a href="/universities" id="nav-option" class="nav-option col-sm">Universities</a>
 		<a href="/corporations" id="nav-option" class="nav-option col-sm">Corporations</a>
 	</navbar>

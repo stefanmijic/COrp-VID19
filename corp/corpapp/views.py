@@ -3,11 +3,11 @@ from .models import Country, State, City, University, Corporation, Measure, Impl
 from django.db.models.functions import Lower
 
 def index(request):
-    return render(request, 'corpapp/index.html')
+    return render(request, 'corpapp/index.html', {'active_index': '0'})
 
 def countries(request):
     cntlist = Country.objects.order_by(Lower('name'))
-    context = {'cntlist': cntlist}
+    context = {'cntlist': cntlist, 'active_index': '1'}
     return render(request, 'corpapp/countries.html', context)
 
 def country_detail(request, country):
@@ -16,7 +16,7 @@ def country_detail(request, country):
 
 def states(request):
     stlist = State.objects.order_by(Lower('name'))
-    context = {'stlist': stlist}
+    context = {'stlist': stlist, 'active_index': '2'}
     return render(request, 'corpapp/states.html', context)
 
 def cities(request):
@@ -26,7 +26,7 @@ def cities(request):
 
 def universities(request):
     unilist = University.objects.order_by(Lower('name'))
-    context = {'unilist': unilist}
+    context = {'unilist': unilist, 'active_index': '4'}
     return render(request, 'corpapp/universities.html', context)
 
 def university_detail(request, aid):
@@ -36,8 +36,13 @@ def university_detail(request, aid):
 
 def corporations(request):
     corplist = Corporation.objects.order_by(Lower('name'))
-    context = {'corplist': corplist}
+    context = {'corplist': corplist, 'active_index': '5'}
     return render(request, 'corpapp/corporations.html', context)
+
+def measures(request):
+    mlist = Measure.objects.order_by(Lower('name'))
+    context = {'mlist': mlist, 'active_index': '3'}
+    return render(request, 'corpapp/measures.html', context)
 
 def measure_detail(request, mid):
     unis = Implemented.objects.filter(entity_type=0, measure=mid).order_by('date')

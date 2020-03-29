@@ -1,0 +1,31 @@
+{% extends "corpapp/base.html" %}
+{% load humanize %}
+
+
+{% block title %}COrpVID19 | Measures{% endblock %}
+
+{% block header %}Response measures{% endblock %}
+
+
+{% block content %}
+
+{% if mlist %}
+<table class="datatable table">
+	<thead><tr>
+		<th>Name</th>
+		<th>Uni adoption</th>
+		<th>Corp adoption</th>
+	</tr></thead>
+	{% for m in mlist %}
+	<tr>
+		<td><a href="measure/{{ m.id }}">{{ m.name }}</a></td>
+		<td>na</td>
+		<td>na</td>
+	</tr>
+	{% endfor %}
+</table>
+{% else %}
+Sorry, no measures found...
+{% endif %}
+
+{% endblock content %}

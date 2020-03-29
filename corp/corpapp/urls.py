@@ -10,5 +10,6 @@ urlpatterns = [
         path("universities", views.universities, name="universities"),
         path("university/<aid>", views.university_detail, name="university_detail"),
         path("corporations", views.corporations, name="corporations"),
+        path("measures", views.measures, name="measures"),
         path("measure/<mid>", views.measure_detail, name="measure_detail"),
     ]
