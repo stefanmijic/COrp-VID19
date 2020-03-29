@@ -3,266 +3,2238 @@
         "model": "corpapp.University",
         "pk": 1,
         "fields": {
-          "name": "École polytechnique fédérale de Lausanne",
-          "abbreviation": "EPFL",
-          "kind": "Universitaet",
-          "ownership": "Federal",
-          "n_students": 11134,
-          "n_staff": 5713,
-          "n_profs": 319,
-          "state": 2,
-          "city": "Lausanne",
-          "budget": 953000000,
-          "corona_page": "https://www.epfl.ch/campus/security-safety/en/health/coronavirus-covid19/",
-          "main_page": "https://www.epfl.ch/en/",
-          "page_quality": "High"
+        "name": "École polytechnique fédérale de Lausanne",
+        "abbreviation": "EPFL",
+        "kind": "Uni",
+        "ownership": "Federal",
+        "n_students": 11134,
+        "n_staff": 5713,
+        "n_profs": 319,
+        "state": 2,
+        "city": "Lausanne",
+        "budget": 953000000,
+        "corona_page": "https://www.epfl.ch/campus/security-safety/en/health/coronavirus-covid19/",
+        "main_page": "https://www.epfl.ch/en/",
+        "page_quality": "High"
         }
-
     },
     {
         "model": "corpapp.University",
         "pk": 2,
         "fields": {
-          "name": "Eidgenössische Technische Hochschule Zürich ",
-          "abbreviation": "ETHZ",
-          "kind": "Universitaet",
-          "ownership": "Federal",
-          "n_students": 20607,
-          "n_staff": 9281,
-          "n_profs": 531,
-          "state": 3,
-          "city": "Zurich",
-          "budget": 1885000000,
-          "corona_page": "https://ethz.ch/services/de/news-und-veranstaltungen/coronavirus.html",
-          "main_page": "https://ethz.ch/de.html",
-          "page_quality": "High"
+        "name": "Eidgenössische Technische Hochschule Zürich ",
+        "abbreviation": "ETHZ",
+        "kind": "Uni",
+        "ownership": "Federal",
+        "n_students": 20607,
+        "n_staff": 9281,
+        "n_profs": 531,
+        "state": 3,
+        "city": "Zurich",
+        "budget": 1885000000,
+        "corona_page": "https://ethz.ch/services/de/news-und-veranstaltungen/coronavirus.html",
+        "main_page": "https://ethz.ch/de.html",
+        "page_quality": "High"
         }
     },
     {
         "model": "corpapp.University",
         "pk": 3,
         "fields": {
-          "name": "Universität Basel",
-          "abbreviation": "UNI Bas",
-          "kind": "Universitaet",
-          "ownership": "state",
-          "n_students": 12673,
-          "n_staff": 6200,
-          "n_profs": 370,
-          "state": 4,
-          "city": "Basel",
-          "budget": 730000000,
-          "corona_page": "https://www.unibas.ch/de/Aktuell/Coronavirus.html",
-          "main_page": "https://www.unibas.ch/de",
-          "page_quality": "High"
+        "name": "Universität Basel",
+        "abbreviation": "UNI Bas",
+        "kind": "Uni",
+        "ownership": "State",
+        "n_students": 12673,
+        "n_staff": 6200,
+        "n_profs": 370,
+        "state": 4,
+        "city": "Basel",
+        "budget": 730000000,
+        "corona_page": "https://www.unibas.ch/de/Aktuell/Coronavirus.html",
+        "main_page": "https://www.unibas.ch/de",
+        "page_quality": "High"
         }
     },
     {
         "model": "corpapp.University",
         "pk": 4,
         "fields": {
-          "name": "Universität Bern",
-          "abbreviation": "UB",
-          "kind": "Universitaet",
-          "ownership": "state",
-          "n_students": 18400,
-          "n_staff": 4610,
-          "n_profs": 575,
-          "state": 1,
-          "city": "Bern",
-          "budget": 884000000,
-          "corona_page": "https://www.unibe.ch/coronavirus/index_ger.html",
-          "main_page": "https://www.unibe.ch/",
-          "page_quality": "High"
+        "name": "Universität Bern",
+        "abbreviation": "UB",
+        "kind": "Uni",
+        "ownership": "State",
+        "n_students": 18400,
+        "n_staff": 4610,
+        "n_profs": 575,
+        "state": 1,
+        "city": "Bern",
+        "budget": 884000000,
+        "corona_page": "https://www.unibe.ch/coronavirus/index_ger.html",
+        "main_page": "https://www.unibe.ch/",
+        "page_quality": "High"
         }
     },
     {
         "model": "corpapp.University",
         "pk": 5,
         "fields": {
-          "name": "Universität Freiburg/Université de Fribourg ",
-          "abbreviation": "UNI FR",
-          "kind": "Universitaet",
-          "ownership": "state",
-          "n_students": 10154,
-          "n_staff": 1989,
-          "n_profs": 264,
-          "state": 5,
-          "city": "Freiburg",
-          "budget": 222000000,
-          "corona_page": "https://www3.unifr.ch/home/de/coronavirus/",
-          "main_page": "https://www.unifr.ch/home/de.html",
-          "page_quality": "High"
+        "name": "Universität Freiburg/Université de Fribourg ",
+        "abbreviation": "UNI FR",
+        "kind": "Uni",
+        "ownership": "State",
+        "n_students": 10154,
+        "n_staff": 1989,
+        "n_profs": 264,
+        "state": 5,
+        "city": "Freiburg",
+        "budget": 222000000,
+        "corona_page": "https://www3.unifr.ch/home/de/coronavirus/",
+        "main_page": "https://www.unifr.ch/home/de.html",
+        "page_quality": "High"
         }
     },
     {
         "model": "corpapp.University",
         "pk": 6,
         "fields": {
-          "name": "Université de Genève",
-          "abbreviation": "UDG",
-          "kind": "Universitaet",
-          "ownership": "state",
-          "n_students": 17271,
-          "n_staff": 4200,
-          "n_profs": 762,
-          "state": 6,
-          "city": "Genf",
-          "budget": 750000000,
-          "corona_page": "https://www.unige.ch/coronavirus/en/",
-          "main_page": "https://www.unige.ch/",
-          "page_quality": "High"
+        "name": "Université de Genève",
+        "abbreviation": "UDG",
+        "kind": "Uni",
+        "ownership": "State",
+        "n_students": 17271,
+        "n_staff": 4200,
+        "n_profs": 762,
+        "state": 6,
+        "city": "Genf",
+        "budget": 750000000,
+        "corona_page": "https://www.unige.ch/coronavirus/en/",
+        "main_page": "https://www.unige.ch/",
+        "page_quality": "High"
         }
     },
     {
         "model": "corpapp.University",
         "pk": 7,
         "fields": {
-          "name": "Université de Lausanne",
-          "abbreviation": "UNIL",
-          "kind": "Universitaet",
-          "ownership": "state",
-          "n_students": 11500,
-          "n_staff": 3723,
-          "n_profs": 452,
-          "state": 2,
-          "city": "Lausanne",
-          "budget": 374900000,
-          "corona_page": "https://www.unil.ch/coronavirus/en/home.html",
-          "main_page": "https://www.unil.ch/index.html",
-          "page_quality": "Medium"
+        "name": "Université de Lausanne",
+        "abbreviation": "UNIL",
+        "kind": "Uni",
+        "ownership": "State",
+        "n_students": 11500,
+        "n_staff": 3723,
+        "n_profs": 452,
+        "state": 2,
+        "city": "Lausanne",
+        "budget": 374900000,
+        "corona_page": "https://www.unil.ch/coronavirus/en/home.html",
+        "main_page": "https://www.unil.ch/index.html",
+        "page_quality": "Medium"
         }
     },
     {
         "model": "corpapp.University",
         "pk": 8,
         "fields": {
-          "name": "Università della Svizzera italiana",
-          "abbreviation": "USI",
-          "kind": "Universitaet",
-          "ownership": "state",
-          "n_students": 2862,
-          "n_staff": 805,
-          "n_profs": 123,
-          "state": 7,
-          "city": "Lugano",
-          "budget": 93700000,
-          "corona_page": "https://www.usi.ch/en/feeds/12867",
-          "main_page": "https://www.usi.ch/en",
-          "page_quality": "High"
+        "name": "Università della Svizzera italiana",
+        "abbreviation": "USI",
+        "kind": "Uni",
+        "ownership": "State",
+        "n_students": 2862,
+        "n_staff": 805,
+        "n_profs": 123,
+        "state": 7,
+        "city": "Lugano",
+        "budget": 93700000,
+        "corona_page": "https://www.usi.ch/en/feeds/12867",
+        "main_page": "https://www.usi.ch/en",
+        "page_quality": "High"
         }
     },
     {
         "model": "corpapp.University",
         "pk": 9,
         "fields": {
-          "name": "Universität Luzern",
-          "abbreviation": "UNILu",
-          "kind": "Universitaet",
-          "ownership": "state",
-          "n_students": 3007,
-          "n_staff": 539,
-          "n_profs": 70,
-          "state": 8,
-          "city": "Luzern",
-          "budget": 18687715,
-          "corona_page": "https://www.unilu.ch/coronavirus/",
-          "main_page": "https://www.unilu.ch/",
-          "page_quality": "High"
+        "name": "Universität Luzern",
+        "abbreviation": "UNILu",
+        "kind": "Uni",
+        "ownership": "State",
+        "n_students": 3007,
+        "n_staff": 539,
+        "n_profs": 70,
+        "state": 8,
+        "city": "Luzern",
+        "budget": 18687715,
+        "corona_page": "https://www.unilu.ch/coronavirus/",
+        "main_page": "https://www.unilu.ch/",
+        "page_quality": "High"
         }
     },
     {
         "model": "corpapp.University",
         "pk": 10,
         "fields": {
-          "name": "Université Neuchâtel",
-          "abbreviation": "unine",
-          "kind": "Universitaet",
-          "ownership": "state",
-          "n_students": 4282,
-          "n_staff": 782,
-          "n_profs": 114,
-          "state": 9,
-          "city": "Neuenburg",
-          "budget": 141800000,
-          "corona_page": "https://www.unine.ch/unine/home/luniversite/info-coronavirus.html",
-          "main_page": "https://www.unine.ch/unine/home.html",
-          "page_quality": "Low"
+        "name": "Université Neuchâtel",
+        "abbreviation": "unine",
+        "kind": "Uni",
+        "ownership": "State",
+        "n_students": 4282,
+        "n_staff": 782,
+        "n_profs": 114,
+        "state": 9,
+        "city": "Neuenburg",
+        "budget": 141800000,
+        "corona_page": "https://www.unine.ch/unine/home/luniversite/info-coronavirus.html",
+        "main_page": "https://www.unine.ch/unine/home.html",
+        "page_quality": "Low"
         }
     },
     {
         "model": "corpapp.University",
         "pk": 11,
         "fields": {
-          "name": "Universität St. Gallen",
-          "abbreviation": "HSG",
-          "kind": "Universitaet",
-          "ownership": "state",
-          "n_students": 8600,
-          "n_staff": 3204,
-          "n_profs": 102,
-          "state": 10,
-          "city": "St. Gallen",
-          "budget": 245600000,
-          "corona_page": "https://www.unisg.ch/de/wissen/newsroom/aktuell/rssnews/campus/2020/aktuelle-informationen-coronavirus-23maerz2020",
-          "main_page": "https://www.unisg.ch/",
-          "page_quality": "Medium"
+        "name": "Universität St. Gallen",
+        "abbreviation": "HSG",
+        "kind": "Uni",
+        "ownership": "State",
+        "n_students": 8600,
+        "n_staff": 3204,
+        "n_profs": 102,
+        "state": 10,
+        "city": "St. Gallen",
+        "budget": 245600000,
+        "corona_page": "https://www.unisg.ch/de/wissen/newsroom/aktuell/rssnews/campus/2020/aktuelle-informationen-coronavirus-23maerz2020",
+        "main_page": "https://www.unisg.ch/",
+        "page_quality": "Medium"
         }
     },
     {
         "model": "corpapp.University",
         "pk": 12,
         "fields": {
-          "name": "Univerität Zürich",
-          "abbreviation": "UZH",
-          "kind": "Universitaet",
-          "ownership": "state",
-          "n_students": 25217,
-          "n_staff": 9246,
-          "n_profs": 685,
-          "state": 3,
-          "city": "Zurich",
-          "budget": 1377000000,
-          "corona_page": "https://www.su.uzh.ch/de/Coronavirus.html",
-          "main_page": "https://www.uzh.ch/de.html",
-          "page_quality": "High"
+        "name": "Universität St. Gallen",
+        "abbreviation": "UZH",
+        "kind": "Uni",
+        "ownership": "State",
+        "n_students": 25217,
+        "n_staff": 9246,
+        "n_profs": 685,
+        "state": 3,
+        "city": "Zurich",
+        "budget": 1377000000,
+        "corona_page": "https://www.su.uzh.ch/de/Coronavirus.html",
+        "main_page": "https://www.uzh.ch/de.html",
+        "page_quality": "High"
         }
     },
     {
         "model": "corpapp.University",
         "pk": 13,
         "fields": {
-          "name": "Stiftung Universitäre Fernstudien Schweiz",
-          "kind": "Universitaet",
-          "ownership": "state",
-          "n_students": 1600,
-          "n_staff": 300,
-          "n_profs": 250,
-          "state": 11,
-          "city": "Brig",
-          "budget": 13664793,
-          "corona_page": "https://fernuni.ch/ueber-uns/coronavirus-die-fernuni-schweiz-informiert/",
-          "main_page": "https://fernuni.ch/",
-          "page_quality": "High"
+        "name": "Stiftung Universitäre Fernstudien Schweiz",
+        "kind": "Uni",
+        "ownership": "State",
+        "n_students": 1600,
+        "n_staff": 300,
+        "n_profs": 250,
+        "state": 11,
+        "city": "Brig",
+        "budget": 13664793,
+        "corona_page": "https://fernuni.ch/ueber-uns/coronavirus-die-fernuni-schweiz-informiert/",
+        "main_page": "https://fernuni.ch/",
+        "page_quality": "High"
         }
     },
     {
         "model": "corpapp.University",
         "pk": 14,
         "fields": {
-          "name": "Institut de hautes études internationales et du développement",
-          "abbreviation": "IHEID",
-          "kind": "Universitaet",
-          "ownership": "state",
-          "n_students": 951,
-          "n_staff": 119,
-          "n_profs": 73,
-          "state": 6,
-          "city": "Genf",
-          "budget": 96302587,
-          "corona_page": "https://graduateinstitute.ch/novel-coronavirus2019",
-          "main_page": "https://graduateinstitute.ch/",
-          "page_quality": "High"
+        "name": "Institut de hautes études internationales et du développement",
+        "abbreviation": "IHEID",
+        "kind": "Uni",
+        "ownership": "State",
+        "n_students": 951,
+        "n_staff": 119,
+        "n_profs": 73,
+        "state": 6,
+        "city": "Genf",
+        "budget": 96302587,
+        "corona_page": "https://graduateinstitute.ch/novel-coronavirus2019",
+        "main_page": "https://graduateinstitute.ch/",
+        "page_quality": "High"
+        }
+    },
+    {
+        "model": "corpapp.University",
+        "pk": 15,
+        "fields": {
+        "name": "RWTH Aachen",
+        "abbreviation": "RWTH Achen",
+        "kind": "Uni",
+        "ownership": "Federal",
+        "n_students": 45628,
+        "n_staff": 9655,
+        "n_profs": 564,
+        "state": 12,
+        "city": "Aachen",
+        "budget": 948000000,
+        "corona_page": "https://www.rwth-aachen.de/cms/root/Die-RWTH/Aktuell/Pressemitteilungen/Maerz-2020/~fukua/Infektionen-mit-Coronavirus/",
+        "main_page": "https://www.rwth-aachen.de/go/id/a/",
+        "page_quality": "medium"
+        }
+    },
+    {
+        "model": "corpapp.University",
+        "pk": 16,
+        "fields": {
+        "name": "Universität Augsburg",
+        "abbreviation": "UNIA",
+        "kind": "Uni",
+        "ownership": "Federal",
+        "n_students": 20138,
+        "n_staff": 3995,
+        "n_profs": 225,
+        "state": 15,
+        "city": "Augsburg",
+        "budget": 117400000,
+        "corona_page": "https://www.uni-augsburg.de/de/campusleben/neuigkeiten/2020/03/26/1585/",
+        "main_page": "https://www.uni-augsburg.de/de/",
+        "page_quality": "medium"
+        }
+    },
+    {
+        "model": "corpapp.University",
+        "pk": 17,
+        "fields": {
+        "name": "Otto-Friedrich-Universität Bamberg",
+        "abbreviation": "OFUB",
+        "kind": "Uni",
+        "ownership": "Federal",
+        "n_students": 13119,
+        "n_staff": 1368,
+        "n_profs": 160,
+        "state": 15,
+        "city": "Bamberg",
+        "budget": 84800000,
+        "corona_page": "https://www.uni-bamberg.de/gesund/coronavirus/",
+        "main_page": "https://www.uni-bamberg.de/",
+        "page_quality": "high"
+        }
+    },
+    {
+        "model": "corpapp.University",
+        "pk": 18,
+        "fields": {
+        "name": "Universität Bayreuth",
+        "abbreviation": "UB",
+        "kind": "Uni",
+        "ownership": "Federal",
+        "n_students": 12787,
+        "n_staff": 2301,
+        "n_profs": 241,
+        "state": 15,
+        "city": "Bayreuth",
+        "budget": 150000000,
+        "corona_page": "https://www.uni-bayreuth.de/de/universitaet/presse/corona/index.html",
+        "main_page": "https://www.uni-bayreuth.de/de/index.html",
+        "page_quality": "high"
+        }
+    },
+    {
+        "model": "corpapp.University",
+        "pk": 19,
+        "fields": {
+        "name": "Freie Universität Berlin",
+        "abbreviation": "FU Berlin",
+        "kind": "Uni",
+        "ownership": "Federal",
+        "n_students": 38304,
+        "n_staff": 4450,
+        "n_profs": 358,
+        "state": 19,
+        "city": "Berlin",
+        "budget": 478000000,
+        "corona_page": "https://www.fu-berlin.de/sites/coronavirus/index.html",
+        "main_page": "https://www.fu-berlin.de/",
+        "page_quality": "high"
+        }
+    },
+    {
+        "model": "corpapp.University",
+        "pk": 20,
+        "fields": {
+        "name": "Humboldt-Universität zu Berlin",
+        "abbreviation": "HU Berlin",
+        "kind": "Uni",
+        "ownership": "Federal",
+        "n_students": 43697,
+        "n_staff": 3889,
+        "n_profs": 461,
+        "state": 19,
+        "city": "Berlin",
+        "budget": 397700000,
+        "corona_page": "https://www.hu-berlin.de/de/pr/coronavirus-informationen/",
+        "main_page": "https://www.hu-berlin.de/de",
+        "page_quality": "high"
+        }
+    },
+    {
+        "model": "corpapp.University",
+        "pk": 21,
+        "fields": {
+        "name": "Technische Universität Berlin",
+        "abbreviation": "TU Berlin",
+        "kind": "Uni",
+        "ownership": "Federal",
+        "n_students": 35570,
+        "n_staff": 8362,
+        "n_profs": 355,
+        "state": 19,
+        "city": "Berlin",
+        "budget": 535500000,
+        "corona_page": "https://www.pressestelle.tu-berlin.de/menue/tub_medien/newsportal/innenansichten/2020/coronavirus_2019_ncov/parameter/de",
+        "main_page": "https://www.tu-berlin.de/menue/home/",
+        "page_quality": "high"
+        }
+    },
+    {
+        "model": "corpapp.University",
+        "pk": 22,
+        "fields": {
+        "name": "Universität Bielefeld",
+        "abbreviation": "Uni Bielefeld",
+        "kind": "Uni",
+        "ownership": "Federal",
+        "n_students": 24875,
+        "n_staff": 2741,
+        "n_profs": 263,
+        "state": 12,
+        "city": "Bielefeld",
+        "budget": 169800000,
+        "corona_page": "https://uni-bielefeld.de/themen/coronavirus/",
+        "main_page": "https://www.uni-bielefeld.de/",
+        "page_quality": "high"
+        }
+    },
+    {
+        "model": "corpapp.University",
+        "pk": 23,
+        "fields": {
+        "name": "Ruhr-Universität Bochum",
+        "abbreviation": "RUB",
+        "kind": "Uni",
+        "ownership": "Federal",
+        "n_students": 43113,
+        "n_staff": 6005,
+        "n_profs": 436,
+        "state": 12,
+        "city": "Bochum",
+        "budget": 615000000,
+        "corona_page": "https://www.ruhr-uni-bochum.de/de/aktuelle-informationen-zu-corona",
+        "main_page": "https://www.ruhr-uni-bochum.de/de",
+        "page_quality": "high"
+        }
+    },
+    {
+        "model": "corpapp.University",
+        "pk": 24,
+        "fields": {
+        "name": "Rheinische Friedrich-Wilhelms-Universität Bonn",
+        "abbreviation": "RFWU Bonn",
+        "kind": "Uni",
+        "ownership": "Federal",
+        "n_students": 38043,
+        "n_staff": 6545,
+        "n_profs": 545,
+        "state": 12,
+        "city": "Bonn",
+        "budget": 662740000,
+        "corona_page": "https://www.uni-bonn.de/neues/informationen-zum-corona-virus/",
+        "main_page": "https://www.uni-bonn.de/",
+        "page_quality": "high"
+        }
+    },
+    {
+        "model": "corpapp.University",
+        "pk": 25,
+        "fields": {
+        "name": "Medizinische Hochschule Brandenburg Theodor Fontane",
+        "abbreviation": "MHB",
+        "kind": "Uni",
+        "ownership": "Private",
+        "n_students": 82,
+        "n_staff": 0,
+        "n_profs": 0,
+        "state": 21,
+        "city": "Brandenburg",
+        "budget": 0,
+        "corona_page": "https://www.mhb-fontane.de/aktuellesartikel/mhb-beschliesst-massnahmen-zur-verlangsamung-der-covid-19-pandemie.html",
+        "main_page": "https://www.mhb-fontane.de/",
+        "page_quality": "low"
+        }
+    },
+    {
+        "model": "corpapp.University",
+        "pk": 26,
+        "fields": {
+        "name": "Technische Universität Braunschweig",
+        "abbreviation": "TU Braunschweig",
+        "kind": "Uni",
+        "ownership": "Federal",
+        "n_students": 19881,
+        "n_staff": 6488,
+        "n_profs": 241,
+        "state": 22,
+        "city": "Braunschweig",
+        "budget": 335000000,
+        "corona_page": "https://www.tu-braunschweig.de/hinweise-zum-coronavirus",
+        "main_page": "https://www.tu-braunschweig.de/",
+        "page_quality": "high"
+        }
+    },
+    {
+        "model": "corpapp.University",
+        "pk": 27,
+        "fields": {
+        "name": "Jacobs University Bremen",
+        "abbreviation": "JU Bremen",
+        "kind": "Uni",
+        "ownership": "Private",
+        "n_students": 1312,
+        "n_staff": 434,
+        "n_profs": 66,
+        "state": 23,
+        "city": "Bremen",
+        "budget": 0,
+        "corona_page": "https://www.jacobs-university.de/news/view-corona-crisis",
+        "main_page": "https://www.jacobs-university.de/",
+        "page_quality": "low"
+        }
+    },
+    {
+        "model": "corpapp.University",
+        "pk": 28,
+        "fields": {
+        "name": "Universität Bremen",
+        "abbreviation": "Uni Bremen",
+        "kind": "Uni",
+        "ownership": "Federal",
+        "n_students": 18843,
+        "n_staff": 3491,
+        "n_profs": 320,
+        "state": 23,
+        "city": "Bremen",
+        "budget": 344000000,
+        "corona_page": "https://www.uni-bremen.de/coronavirus/",
+        "main_page": "https://www.uni-bremen.de/",
+        "page_quality": "high"
+        }
+    },
+    {
+        "model": "corpapp.University",
+        "pk": 29,
+        "fields": {
+        "name": "Technische Universität Chemnitz",
+        "abbreviation": "TU Chemnitz",
+        "kind": "Uni",
+        "ownership": "Federal",
+        "n_students": 11231,
+        "n_staff": 2298,
+        "n_profs": 158,
+        "state": 24,
+        "city": "Chemnitz",
+        "budget": 169000000,
+        "corona_page": "https://www.tu-chemnitz.de/tu/pressestelle/aktuell/10052",
+        "main_page": "https://www.tu-chemnitz.de/",
+        "page_quality": "medium"
+        }
+    },
+    {
+        "model": "corpapp.University",
+        "pk": 30,
+        "fields": {
+        "name": "Technische Universität Clausthal",
+        "abbreviation": "TUC",
+        "kind": "Uni",
+        "ownership": "Federal",
+        "n_students": 4963,
+        "n_staff": 1069,
+        "n_profs": 78,
+        "state": 22,
+        "city": "Clausthal",
+        "budget": 122200000,
+        "corona_page": "https://www.tu-clausthal.de/corona",
+        "main_page": "https://www.tu-clausthal.de/",
+        "page_quality": "high"
+        }
+    },
+    {
+        "model": "corpapp.University",
+        "pk": 31,
+        "fields": {
+        "name": "Brandenburgische Technische Universität Cottbus-Senftenberg",
+        "abbreviation": "BTU",
+        "kind": "Uni",
+        "ownership": "Federal",
+        "n_students": 7280,
+        "n_staff": 1481,
+        "n_profs": 197,
+        "state": 21,
+        "city": "Cottbus",
+        "budget": 86300000,
+        "corona_page": "https://www.b-tu.de/universitaet/leitung/informationen-zum-coronavirus",
+        "main_page": "https://www.b-tu.de/",
+        "page_quality": "high"
+        }
+    },
+    {
+        "model": "corpapp.University",
+        "pk": 32,
+        "fields": {
+        "name": "Technische Universität Darmstadt",
+        "abbreviation": "TU Darmstadt",
+        "kind": "Uni",
+        "ownership": "Federal",
+        "n_students": 25170,
+        "n_staff": 4974,
+        "n_profs": 308,
+        "state": 18,
+        "city": "Darmstadt",
+        "budget": 454300000,
+        "corona_page": "https://www.tu-darmstadt.de/universitaet/aktuelles_meldungen/mitteilung_corona_virus.de.jsp",
+        "main_page": "https://www.tu-darmstadt.de/",
+        "page_quality": "low"
+        }
+    },
+    {
+        "model": "corpapp.University",
+        "pk": 33,
+        "fields": {
+        "name": "Technische Universität Dortmund",
+        "abbreviation": "TU Dortmund",
+        "kind": "Uni",
+        "ownership": "Federal",
+        "n_students": 34616,
+        "n_staff": 6320,
+        "n_profs": 293,
+        "state": 12,
+        "city": "Dortmund",
+        "budget": 336000000,
+        "corona_page": "https://www.tu-dortmund.de/coronavirus/",
+        "main_page": "https://www.tu-dortmund.de/",
+        "page_quality": "high"
+        }
+    },
+    {
+        "model": "corpapp.University",
+        "pk": 34,
+        "fields": {
+        "name": "Dresden International University",
+        "abbreviation": "DIU",
+        "kind": "Uni",
+        "ownership": "Private",
+        "n_students": 1377,
+        "n_staff": 0,
+        "n_profs": 0,
+        "state": 24,
+        "city": "Dresden",
+        "budget": 0,
+        "corona_page": "https://www.di-uni.de/news-presse/corona-virus",
+        "main_page": "https://www.di-uni.de/",
+        "page_quality": "high"
+        }
+    },
+    {
+        "model": "corpapp.University",
+        "pk": 35,
+        "fields": {
+        "name": "Technische Universität Dresden",
+        "abbreviation": "TUD",
+        "kind": "Uni",
+        "ownership": "Federal",
+        "n_students": 32389,
+        "n_staff": 4559,
+        "n_profs": 536,
+        "state": 24,
+        "city": "Dresden",
+        "budget": 510000000,
+        "corona_page": "https://tu-dresden.de/tu-dresden/gesundheitsmanagement/information-regarding-covid-19-coronavirus-sars-cov-2",
+        "main_page": "https://tu-dresden.de/",
+        "page_quality": "high"
+        }
+    },
+    {
+        "model": "corpapp.University",
+        "pk": 36,
+        "fields": {
+        "name": "Universität Duisburg-Essen",
+        "abbreviation": "Uni DE",
+        "kind": "Uni",
+        "ownership": "Federal",
+        "n_students": 42908,
+        "n_staff": 5819,
+        "n_profs": 499,
+        "state": 12,
+        "city": "Duisburg/Essen",
+        "budget": 500200000,
+        "corona_page": "https://www.uni-due.de/",
+        "main_page": "https://www.uni-due.de/",
+        "page_quality": "high"
+        }
+    },
+    {
+        "model": "corpapp.University",
+        "pk": 37,
+        "fields": {
+        "name": "Heinrich-Heine-Universität Düsseldorf",
+        "kind": "Uni",
+        "ownership": "Federal",
+        "n_students": 35194,
+        "n_staff": 3954,
+        "n_profs": 342,
+        "state": 12,
+        "city": "Düsseldorf",
+        "budget": 406800000,
+        "corona_page": "https://www.uni-duesseldorf.de/home/universitaet/weiterfuehrend/informationen-und-anweisungen-zum-coronavirus.html",
+        "main_page": "https://www.uni-duesseldorf.de/home/startseite.html",
+        "page_quality": "high"
+        }
+    },
+    {
+        "model": "corpapp.University",
+        "pk": 38,
+        "fields": {
+        "name": "Katholische Universität Eichstätt-Ingolstadt",
+        "kind": "Uni",
+        "ownership": "Confessional",
+        "n_students": 4910,
+        "n_staff": 5100,
+        "n_profs": 846,
+        "state": 15,
+        "city": "Eichstätt/Ingolstadt",
+        "budget": 0,
+        "corona_page": "https://www.ku.de/corona",
+        "main_page": "https://www.ku.de/",
+        "page_quality": "high"
+        }
+    },
+    {
+        "model": "corpapp.University",
+        "pk": 39,
+        "fields": {
+        "name": "Universität Erfurt",
+        "abbreviation": "Hierana",
+        "kind": "Uni",
+        "ownership": "Federal",
+        "n_students": 5598,
+        "n_staff": 5928,
+        "n_profs": 670,
+        "state": 17,
+        "city": "Erfurt",
+        "budget": 55820000,
+        "corona_page": "https://www.uni-erfurt.de/corona-info/",
+        "main_page": "https://www.uni-erfurt.de/",
+        "page_quality": "medium"
+        }
+    },
+    {
+        "model": "corpapp.University",
+        "pk": 40,
+        "fields": {
+        "name": "Friedrich-Alexander-Universität Erlangen-Nürnberg",
+        "abbreviation": "FAU",
+        "kind": "Uni",
+        "ownership": "Federal",
+        "n_students": 38494,
+        "n_staff": 6356,
+        "n_profs": 579,
+        "state": 15,
+        "city": "Erlangen/Nürnberg",
+        "budget": 0,
+        "corona_page": "https://www.fau.de/2020/03/news/digitale-lehre-in-zeiten-der-corona-krise/",
+        "main_page": "https://www.fau.de/",
+        "page_quality": "low"
+        }
+    },
+    {
+        "model": "corpapp.University",
+        "pk": 41,
+        "fields": {
+        "name": "Europa-Universität Flensburg",
+        "abbreviation": "EUF",
+        "kind": "Uni",
+        "ownership": "Federal",
+        "n_students": 5711,
+        "n_staff": 5942,
+        "n_profs": 560,
+        "state": 14,
+        "city": "Flensburg",
+        "budget": 37400000,
+        "corona_page": "https://www.uni-flensburg.de/portal-presse-und-oeffentlichkeit/hochschulnews/hochschulnews/news/detail/News/europa-universitaet-flensburg-haelt-betrieb-eingeschraenkt-aufrecht/",
+        "main_page": "https://www.uni-flensburg.de/",
+        "page_quality": "low"
+        }
+    },
+    {
+        "model": "corpapp.University",
+        "pk": 42,
+        "fields": {
+        "name": "Frankfurt School of Finance & Management",
+        "abbreviation": "FS F&M",
+        "kind": "Uni",
+        "ownership": "Private",
+        "n_students": 1278,
+        "n_staff": 480,
+        "n_profs": 67,
+        "state": 18,
+        "city": "Frankfurt am Main",
+        "budget": 77700000,
+        "corona_page": "https://www.frankfurt-school.de/home/newsroom/news/2020/Maerz/info-coronavirus",
+        "main_page": "https://www.frankfurt-school.de/home",
+        "page_quality": "high"
+        }
+    },
+    {
+        "model": "corpapp.University",
+        "pk": 43,
+        "fields": {
+        "name": "Johann Wolfgang Goethe-Universität Frankfurt am Main",
+        "abbreviation": "JWGU Frankfurt",
+        "kind": "Uni",
+        "ownership": "Federal",
+        "n_students": 46325,
+        "n_staff": 5126,
+        "n_profs": 580,
+        "state": 18,
+        "city": "Frankfurt am Main",
+        "budget": 644600000,
+        "corona_page": "https://www.uni-frankfurt.de/86555546/Corona?legacy_request=1",
+        "main_page": "https://www.uni-frankfurt.de/de?locale=de",
+        "page_quality": "high"
+        }
+    },
+    {
+        "model": "corpapp.University",
+        "pk": 44,
+        "fields": {
+        "name": "Europa-Universität Viadrina (Frankfurt (Oder))",
+        "abbreviation": "Viadrina",
+        "kind": "Uni",
+        "ownership": "Federal",
+        "n_students": 6716,
+        "n_staff": 598,
+        "n_profs": 73,
+        "state": 21,
+        "city": "Frankfurt am Main",
+        "budget": 0,
+        "corona_page": "https://www.europa-uni.de/de/struktur/unileitung/pressestelle/aktuelles/corona/index.html",
+        "main_page": "https://www.europa-uni.de/de/index.html",
+        "page_quality": "high"
+        }
+    },
+    {
+        "model": "corpapp.University",
+        "pk": 45,
+        "fields": {
+        "name": "Technische Universität Bergakademie Freiberg",
+        "abbreviation": "TU Freiberg",
+        "kind": "Uni",
+        "ownership": "Federal",
+        "n_students": 4927,
+        "n_staff": 1804,
+        "n_profs": 89,
+        "state": 24,
+        "city": "Freiberg",
+        "budget": 56000000,
+        "corona_page": "https://tu-freiberg.de/presse/freistaat-sachsen-erlaesst-neue-allgemeinverfuegung-zur-corona-pandemie",
+        "main_page": "https://tu-freiberg.de/",
+        "page_quality": "medium"
+        }
+    },
+    {
+        "model": "corpapp.University",
+        "pk": 46,
+        "fields": {
+        "name": "Albert-Ludwigs-Universität Freiburg",
+        "abbreviation": "TU Freiburg",
+        "kind": "Uni",
+        "ownership": "Federal",
+        "n_students": 24892,
+        "n_staff": 6738,
+        "n_profs": 340100000,
+        "state": 13,
+        "city": "Freiburg im Breisgau",
+        "budget": 340100000,
+        "corona_page": "http://www.uni-freiburg.de/universitaet/corona",
+        "main_page": "http://www.uni-freiburg.de/",
+        "page_quality": "high"
+        }
+    },
+    {
+        "model": "corpapp.University",
+        "pk": 47,
+        "fields": {
+        "name": "Zeppelin Universität (Friedrichshafen)",
+        "abbreviation": "ZU Friedrichshafen",
+        "kind": "Uni",
+        "ownership": "Private",
+        "n_students": 1060,
+        "n_staff": 224,
+        "n_profs": 28,
+        "state": 13,
+        "city": "Friedrichshafen",
+        "budget": 0,
+        "corona_page": "https://www.zu.de/universitaet/news/2020-03-11-corona-praesenzlehre.php",
+        "main_page": "https://www.zu.de/",
+        "page_quality": "low"
+        }
+    },
+    {
+        "model": "corpapp.University",
+        "pk": 48,
+        "fields": {
+        "name": "Justus-Liebig-Universität Gießen",
+        "abbreviation": "JLU",
+        "kind": "Uni",
+        "ownership": "Federal",
+        "n_students": 28800,
+        "n_staff": 5600,
+        "n_profs": 400,
+        "state": 18,
+        "city": "Giessen",
+        "budget": 386700000,
+        "corona_page": "https://www.uni-giessen.de/coronavirus/index.html",
+        "main_page": "https://www.uni-giessen.de/index.html",
+        "page_quality": "high"
+        }
+    },
+    {
+        "model": "corpapp.University",
+        "pk": 49,
+        "fields": {
+        "name": "Georg-August-Universität Göttingen",
+        "abbreviation": "GAU Göttingen",
+        "kind": "Uni",
+        "ownership": "Federal",
+        "n_students": 31619,
+        "n_staff": 12781,
+        "n_profs": 482,
+        "state": 22,
+        "city": "Göttingen",
+        "budget": 1290000000,
+        "corona_page": "https://www.uni-goettingen.de/de/622779.html",
+        "main_page": "http://www.uni-goettingen.de/",
+        "page_quality": "medium"
+        }
+    },
+    {
+        "model": "corpapp.University",
+        "pk": 50,
+        "fields": {
+        "name": "Universität Greifswald",
+        "abbreviation": "Uni Greifenswald",
+        "kind": "Uni",
+        "ownership": "Federal",
+        "n_students": 10414,
+        "n_staff": 5093,
+        "n_profs": 191,
+        "state": 25,
+        "city": "Greifswald",
+        "budget": 47000000,
+        "corona_page": "https://www.uni-greifswald.de/universitaet/information/aktuelles/faq-zur-corona-pandemie/",
+        "main_page": "https://www.uni-greifswald.de/",
+        "page_quality": "high"
+        }
+    },
+    {
+        "model": "corpapp.University",
+        "pk": 51,
+        "fields": {
+        "name": "Fernuniversität in Hagen",
+        "abbreviation": "FU Hagen",
+        "kind": "Uni",
+        "ownership": "Federal",
+        "n_students": 75404,
+        "n_staff": 1821,
+        "n_profs": 92,
+        "state": 12,
+        "city": "Hagen",
+        "budget": 89900000,
+        "corona_page": "https://www.fernuni-hagen.de/universitaet/themen/sicherheitshinweise-zum-corona-virus.shtml",
+        "main_page": "https://www.uni-greifswald.de/",
+        "page_quality": "medium"
+        }
+    },
+    {
+        "model": "corpapp.University",
+        "pk": 52,
+        "fields": {
+        "name": "Martin-Luther-Universität Halle-Wittenberg",
+        "abbreviation": "MLU",
+        "kind": "Uni",
+        "ownership": "Federal",
+        "n_students": 20500,
+        "n_staff": 5843,
+        "n_profs": 297,
+        "state": 16,
+        "city": "Halle/Wittenberg",
+        "budget": 0,
+        "corona_page": "https://www.uni-halle.de/coronavirus/",
+        "main_page": "https://www.uni-halle.de/",
+        "page_quality": "high"
+        }
+    },
+    {
+        "model": "corpapp.University",
+        "pk": 53,
+        "fields": {
+        "name": "Bucerius Law School",
+        "abbreviation": "BLS",
+        "kind": "Uni",
+        "ownership": "Private",
+        "n_students": 853,
+        "n_staff": 142,
+        "n_profs": 26,
+        "state": 26,
+        "city": "Hamburg",
+        "budget": 17800000,
+        "corona_page": "https://www.law-school.de/coronavirus",
+        "main_page": "https://www.law-school.de/",
+        "page_quality": "high"
+        }
+    },
+    {
+        "model": "corpapp.University",
+        "pk": 54,
+        "fields": {
+        "name": "HafenCity Universität Hamburg",
+        "abbreviation": "HCU",
+        "kind": "Uni",
+        "ownership": "Federal",
+        "n_students": 2423,
+        "n_staff": 0,
+        "n_profs": 0,
+        "state": 26,
+        "city": "Hamburg",
+        "budget": 0,
+        "corona_page": "https://www.hcu-hamburg.de/universitaet/services-und-kontakt/aktuelle-informationen/",
+        "main_page": "https://www.hcu-hamburg.de/",
+        "page_quality": "high"
+        }
+    },
+    {
+        "model": "corpapp.University",
+        "pk": 55,
+        "fields": {
+        "name": "Northern Institute of Technology Management (Hamburg)",
+        "abbreviation": "NIT",
+        "kind": "Uni",
+        "ownership": "Private",
+        "n_students": 30,
+        "n_staff": 0,
+        "n_profs": 0,
+        "state": 26,
+        "city": "Hamburg",
+        "budget": 0,
+        "corona_page": "https://www.tuhh.de/tuhh/uni/aktuelles/covid-19.html",
+        "main_page": "https://www.hcu-hamburg.de/",
+        "page_quality": "high"
+        }
+    },
+    {
+        "model": "corpapp.University",
+        "pk": 56,
+        "fields": {
+        "name": "Kühne Logistics University (Hamburg)",
+        "abbreviation": "KLU",
+        "kind": "Uni",
+        "ownership": "Private",
+        "n_students": 253,
+        "n_staff": 0,
+        "n_profs": 0,
+        "state": 26,
+        "city": "Hamburg",
+        "budget": 0,
+        "corona_page": "https://www.the-klu.org/landingpages/corona/",
+        "main_page": "https://www.the-klu.org/",
+        "page_quality": "high"
+        }
+    },
+    {
+        "model": "corpapp.University",
+        "pk": 57,
+        "fields": {
+        "name": "Technische Universität Hamburg",
+        "abbreviation": "TUHH",
+        "kind": "Uni",
+        "ownership": "Federal",
+        "n_students": 7566,
+        "n_staff": 1475,
+        "n_profs": 92,
+        "state": 26,
+        "city": "Hamburg",
+        "budget": 132700000,
+        "corona_page": "https://www.tuhh.de/tuhh/uni/aktuelles/covid-19.html",
+        "main_page": "https://www.tuhh.de/tuhh/startseite.html",
+        "page_quality": "high"
+        }
+    },
+    {
+        "model": "corpapp.University",
+        "pk": 58,
+        "fields": {
+        "name": "Universität Hamburg",
+        "abbreviation": "Uni Hamburg",
+        "kind": "Uni",
+        "ownership": "Federal",
+        "n_students": 43636,
+        "n_staff": 12458,
+        "n_profs": 704,
+        "state": 26,
+        "city": "Hamburg",
+        "budget": 665,
+        "corona_page": "https://www.uni-hamburg.de/newsroom/intern/2020/0131-corona-faq.html",
+        "main_page": "https://www.uni-hamburg.de/",
+        "page_quality": "high"
+        }
+    },
+    {
+        "model": "corpapp.University",
+        "pk": 59,
+        "fields": {
+        "name": "Gottfried Wilhelm Leibniz Universität Hannover",
+        "abbreviation": "LUH",
+        "kind": "Uni",
+        "ownership": "Federal",
+        "n_students": 29781,
+        "n_staff": 4948,
+        "n_profs": 334,
+        "state": 22,
+        "city": "Hannover",
+        "budget": 545400000,
+        "corona_page": "https://www.uni-hannover.de/de/universitaet/aktuelles/corona/",
+        "main_page": "https://www.uni-hannover.de/",
+        "page_quality": "high"
+        }
+    },
+    {
+        "model": "corpapp.University",
+        "pk": 60,
+        "fields": {
+        "name": "Medizinische Hochschule Hannover",
+        "abbreviation": "MHH",
+        "kind": "Uni",
+        "ownership": "Federal",
+        "n_students": 3423,
+        "n_staff": 7557,
+        "n_profs": 0,
+        "state": 22,
+        "city": "Hannover",
+        "budget": 320600000,
+        "corona_page": "https://www.mhh.de/presse/presseinformationen/news-detailansicht?tx_news_pi1%5Baction%5D=detail&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Bnews%5D=127&cHash=e1d7451ae72b33e475e3e8241a639441",
+        "main_page": "https://www.mhh.de/",
+        "page_quality": "high"
+        }
+    },
+    {
+        "model": "corpapp.University",
+        "pk": 61,
+        "fields": {
+        "name": "Stiftung Tierärztliche Hochschule Hannover",
+        "abbreviation": "TiHo",
+        "kind": "Uni",
+        "ownership": "Federal",
+        "n_students": 2358,
+        "n_staff": 0,
+        "n_profs": 0,
+        "state": 22,
+        "city": "Hannover",
+        "budget": 0,
+        "corona_page": "https://www.tiho-hannover.de/aktuelles-presse/sars-cov-2/",
+        "main_page": "https://www.tiho-hannover.de/",
+        "page_quality": "high"
+        }
+    },
+    {
+        "model": "corpapp.University",
+        "pk": 62,
+        "fields": {
+        "name": "Ruprecht-Karls-Universität Heidelberg",
+        "kind": "Uni",
+        "ownership": "Federal",
+        "n_students": 29689,
+        "n_staff": 15008,
+        "n_profs": 527,
+        "state": 13,
+        "city": "Mannheim",
+        "budget": 764900000,
+        "corona_page": "https://www.uni-heidelberg.de/de/newsroom/informationen-zum-coronavirus",
+        "main_page": "https://www.uni-heidelberg.de/de",
+        "page_quality": "high"
+        }
+    },
+    {
+        "model": "corpapp.University",
+        "pk": 63,
+        "fields": {
+        "name": "Universität Hildesheim",
+        "abbreviation": "Uni Hildesheim",
+        "kind": "Uni",
+        "ownership": "Federal",
+        "n_students": 8416,
+        "n_staff": 777,
+        "n_profs": 0,
+        "state": 22,
+        "city": "Hildesheim",
+        "budget": 0,
+        "corona_page": "https://www.uni-hildesheim.de/neuigkeiten/coronavirus-informationen-und-wichtige-hinweise/",
+        "main_page": "https://www.uni-hildesheim.de/",
+        "page_quality": "high"
+        }
+    },
+    {
+        "model": "corpapp.University",
+        "pk": 64,
+        "fields": {
+        "name": "Technische Universität Ilmenau",
+        "abbreviation": "TU Ilmenau",
+        "kind": "Uni",
+        "ownership": "Federal",
+        "n_students": 5608,
+        "n_staff": 1465,
+        "n_profs": 95,
+        "state": 17,
+        "city": "Ilmenau",
+        "budget": 0,
+        "corona_page": "https://www.tu-ilmenau.de/universitaet/corona-virus/",
+        "main_page": "https://www.tu-ilmenau.de/",
+        "page_quality": "high"
+        }
+    },
+    {
+        "model": "corpapp.University",
+        "pk": 65,
+        "fields": {
+        "name": "Friedrich-Schiller-Universität Jena",
+        "abbreviation": "FSU",
+        "kind": "Uni",
+        "ownership": "Federal",
+        "n_students": 18010,
+        "n_staff": 17659,
+        "n_profs": 392,
+        "state": 17,
+        "city": "Jena",
+        "budget": 410600000,
+        "corona_page": "https://www.uni-jena.de/FAQ_Coronavirus",
+        "main_page": "https://www.tu-ilmenau.de/",
+        "page_quality": "high"
+        }
+    },
+    {
+        "model": "corpapp.University",
+        "pk": 66,
+        "fields": {
+        "name": "Technische Universität Kaiserslautern",
+        "abbreviation": "TUK",
+        "kind": "Uni",
+        "ownership": "Federal",
+        "n_students": 14612,
+        "n_staff": 2196,
+        "n_profs": 196,
+        "state": 20,
+        "city": "Kaiserslautern",
+        "budget": 211600000,
+        "corona_page": "https://www.uni-kl.de/coronavirus/",
+        "main_page": "https://www.uni-kl.de/",
+        "page_quality": "high"
+        }
+    },
+    {
+        "model": "corpapp.University",
+        "pk": 67,
+        "fields": {
+        "name": "Karlsruher Institut für Technologie",
+        "abbreviation": "KIT",
+        "kind": "Uni",
+        "ownership": "Federal",
+        "n_students": 24381,
+        "n_staff": 9277,
+        "n_profs": 366,
+        "state": 13,
+        "city": "Karlsruhe",
+        "budget": 881000000,
+        "corona_page": "https://www.kit.edu/kit/25911.php",
+        "main_page": "https://www.kit.edu/",
+        "page_quality": "high"
+        }
+    },
+    {
+        "model": "corpapp.University",
+        "pk": 68,
+        "fields": {
+        "name": "Universität Kassel",
+        "abbreviation": "Uni Kassel",
+        "kind": "Uni",
+        "ownership": "Federal",
+        "n_students": 25538,
+        "n_staff": 3337,
+        "n_profs": 335,
+        "state": 18,
+        "city": "Kassel",
+        "budget": 291490000,
+        "corona_page": "https://www.uni-kassel.de/uni/nc/aktuelles/aus-der-hochschule/besondere-meldungen/aktuelle-informationen-der-universitaet-kassel-zum-umgang-mit-dem-corona-virus/",
+        "main_page": "https://www.uni-kassel.de/uni/",
+        "page_quality": "high"
+        }
+    },
+    {
+        "model": "corpapp.University",
+        "pk": 69,
+        "fields": {
+        "name": "Christian-Albrechts-Universität zu Kiel",
+        "abbreviation": "CAU",
+        "kind": "Uni",
+        "ownership": "Federal",
+        "n_students": 26477,
+        "n_staff": 3305,
+        "n_profs": 410,
+        "state": 14,
+        "city": "Kiel",
+        "budget": 0,
+        "corona_page": "https://www.uni-kiel.de/de/coronavirus",
+        "main_page": "https://www.uni-kiel.de/de/",
+        "page_quality": "high"
+        }
+    },
+    {
+        "model": "corpapp.University",
+        "pk": 70,
+        "fields": {
+        "name": "Universität Koblenz-Landau",
+        "abbreviation": "Uni KL",
+        "kind": "Uni",
+        "ownership": "Federal",
+        "n_students": 17856,
+        "n_staff": 1401,
+        "n_profs": 175,
+        "state": 20,
+        "city": "Koblenz/Landau",
+        "budget": 0,
+        "corona_page": "https://www.uni-koblenz-landau.de/de/einschraenkungen",
+        "main_page": "https://www.uni-koblenz-landau.de/de",
+        "page_quality": "high"
+        }
+    },
+    {
+        "model": "corpapp.University",
+        "pk": 71,
+        "fields": {
+        "name": "Universität Konstanz",
+        "abbreviation": "Uni KN",
+        "kind": "Uni",
+        "ownership": "Federal",
+        "n_students": 11552,
+        "n_staff": 1870,
+        "n_profs": 210,
+        "state": 13,
+        "city": "Konstanz",
+        "budget": 188650000,
+        "corona_page": "https://www.uni-konstanz.de/universitaet/aktuelles-und-medien/coronavirus/",
+        "main_page": "https://www.uni-konstanz.de/",
+        "page_quality": "high"
+        }
+    },
+    {
+        "model": "corpapp.University",
+        "pk": 72,
+        "fields": {
+        "name": "Deutsche Sporthochschule Köln",
+        "abbreviation": "DSHS",
+        "kind": "Uni",
+        "ownership": "Federal",
+        "n_students": 6063,
+        "n_staff": 979,
+        "n_profs": 27,
+        "state": 12,
+        "city": "Köln",
+        "budget": 0,
+        "corona_page": "https://www.dshs-koeln.de/hochschule/campus-freizeit/sport-gesundheit/gesundheitsportal-der-deutschen-sporthochschule-koeln/informationen-zum-coronavirus-sars-cov-2/",
+        "main_page": "https://www.dshs-koeln.de/",
+        "page_quality": "high"
+        }
+    },
+    {
+        "model": "corpapp.University",
+        "pk": 73,
+        "fields": {
+        "name": "Universität zu Köln",
+        "abbreviation": "Uni Köln",
+        "kind": "Uni",
+        "ownership": "Federal",
+        "n_students": 48841,
+        "n_staff": 6703,
+        "n_profs": 649,
+        "state": 12,
+        "city": "Köln",
+        "budget": 809300000,
+        "corona_page": "https://portal.uni-koeln.de/coronavirus",
+        "main_page": "https://www.uni-koeln.de/",
+        "page_quality": "high"
+        }
+    },
+    {
+        "model": "corpapp.University",
+        "pk": 74,
+        "fields": {
+        "name": "Handelshochschule Leipzig",
+        "abbreviation": "HHL",
+        "kind": "Uni",
+        "ownership": "Private",
+        "n_students": 434,
+        "n_staff": 100,
+        "n_profs": 60,
+        "state": 24,
+        "city": "Leipzig",
+        "budget": 0,
+        "corona_page": "https://www.hhl.de/coronavirus/",
+        "main_page": "https://www.hhl.de/",
+        "page_quality": "high"
+        }
+    },
+    {
+        "model": "corpapp.University",
+        "pk": 75,
+        "fields": {
+        "name": "Universität Leipzig",
+        "abbreviation": "AML",
+        "kind": "Uni",
+        "ownership": "Federal",
+        "n_students": 30226,
+        "n_staff": 5136,
+        "n_profs": 445,
+        "state": 24,
+        "city": "Leipzig",
+        "budget": 405000000,
+        "corona_page": "https://www.uni-leipzig.de/universitaet/service/informationen-zum-coronavirus/",
+        "main_page": "https://www.uni-leipzig.de/",
+        "page_quality": "high"
+        }
+    },
+    {
+        "model": "corpapp.University",
+        "pk": 76,
+        "fields": {
+        "name": "Leuphana Universität Lüneburg",
+        "abbreviation": "Leuphena",
+        "kind": "Uni",
+        "ownership": "Federal",
+        "n_students": 10110,
+        "n_staff": 1076,
+        "n_profs": 181,
+        "state": 22,
+        "city": "Lüneburg",
+        "budget": 111100000,
+        "corona_page": "https://www.leuphana.de/news/meldungen-universitaet/ansicht/datum/2020/03/20/leuphana-schliesst-den-campus-sommersemester-soll-zum-6-april-online-starten.html",
+        "main_page": "https://www.leuphana.de/",
+        "page_quality": "low"
+        }
+    },
+    {
+        "model": "corpapp.University",
+        "pk": 77,
+        "fields": {
+        "name": "Universität zu Lübeck",
+        "abbreviation": "Uni Lübeck",
+        "kind": "Uni",
+        "ownership": "Federal",
+        "n_students": 4341,
+        "n_staff": 763,
+        "n_profs": 150,
+        "state": 14,
+        "city": "Lübeck",
+        "budget": 80800000,
+        "corona_page": "https://www.uni-luebeck.de/aktuelles/nachricht/artikel/coronavirus.html",
+        "main_page": "https://www.uni-luebeck.de/universitaet/universitaet.html",
+        "page_quality": "high"
+        }
+    },
+    {
+        "model": "corpapp.University",
+        "pk": 78,
+        "fields": {
+        "name": "Otto-von-Guericke-Universität Magdeburg",
+        "abbreviation": "OVGU",
+        "kind": "Uni",
+        "ownership": "Federal",
+        "n_students": 13833,
+        "n_staff": 2058,
+        "n_profs": 193,
+        "state": 16,
+        "city": "Magdeburg",
+        "budget": 93500000,
+        "corona_page": "https://www.ovgu.de/corona.html",
+        "main_page": "https://www.ovgu.de/",
+        "page_quality": "high"
+        }
+    },
+    {
+        "model": "corpapp.University",
+        "pk": 79,
+        "fields": {
+        "name": "Johannes Gutenberg-Universität Mainz",
+        "abbreviation": "JGU",
+        "kind": "Uni",
+        "ownership": "Federal",
+        "n_students": 31888,
+        "n_staff": 9241,
+        "n_profs": 523,
+        "state": 20,
+        "city": "Mainz",
+        "budget": 504000000,
+        "corona_page": "https://www.uni-mainz.de/3711.php",
+        "main_page": "https://www.uni-mainz.de/",
+        "page_quality": "high"
+        }
+    },
+    {
+        "model": "corpapp.University",
+        "pk": 80,
+        "fields": {
+        "name": "Universität Mannheim",
+        "abbreviation": "UMA",
+        "kind": "Uni",
+        "ownership": "Federal",
+        "n_students": 11800,
+        "n_staff": 1600,
+        "n_profs": 194,
+        "state": 13,
+        "city": "Mannheim",
+        "budget": 121000000,
+        "corona_page": "https://www.uni-mannheim.de/universitaet/anfahrt-und-campusplan/sicherheit-auf-dem-campus/coronavirus-aktuelle-massnahmen-und-empfehlungen/",
+        "main_page": "https://www.uni-mannheim.de/",
+        "page_quality": "high"
+        }
+    },
+    {
+        "model": "corpapp.University",
+        "pk": 81,
+        "fields": {
+        "name": "Philipps-Universität Marburg",
+        "abbreviation": "AM Philippina",
+        "kind": "Uni",
+        "ownership": "Federal",
+        "n_students": 26355,
+        "n_staff": 4636,
+        "n_profs": 363,
+        "state": 18,
+        "city": "Marburg",
+        "budget": 351200000,
+        "corona_page": "https://www.uni-marburg.de/de/aktuelles/news/2020/philipps-universitaet-marburg-arbeitet-im-basisbetrieb",
+        "main_page": "https://www.uni-marburg.de/de",
+        "page_quality": "high"
+        }
+    },
+    {
+        "model": "corpapp.University",
+        "pk": 82,
+        "fields": {
+        "name": "Hochschule für Philosophie München",
+        "abbreviation": "HFPH",
+        "kind": "Uni",
+        "ownership": "Confessional",
+        "n_students": 336,
+        "n_staff": 0,
+        "n_profs": 11,
+        "state": 15,
+        "city": "München",
+        "budget": 0,
+        "corona_page": "https://www.hfph.de/hochschule/nachrichten/informationen-und-hinweise-zum-corona-virus-sars-cov-2",
+        "main_page": "https://www.hfph.de/",
+        "page_quality": "high"
+        }
+    },
+    {
+        "model": "corpapp.University",
+        "pk": 83,
+        "fields": {
+        "name": "Ludwig-Maximilians-Universität München",
+        "abbreviation": "LMU",
+        "kind": "Uni",
+        "ownership": "Federal",
+        "n_students": 51606,
+        "n_staff": 14083,
+        "n_profs": 762,
+        "state": 15,
+        "city": "München",
+        "budget": 1785800000,
+        "corona_page": "https://www.uni-muenchen.de/aktuelles/corona_informationen/index.html",
+        "main_page": "https://www.uni-muenchen.de/index.html",
+        "page_quality": "high"
+        }
+    },
+    {
+        "model": "corpapp.University",
+        "pk": 84,
+        "fields": {
+        "name": "Technische Universität München",
+        "abbreviation": "TUM",
+        "kind": "Uni",
+        "ownership": "Federal",
+        "n_students": 42705,
+        "n_staff": 10501,
+        "n_profs": 556,
+        "state": 15,
+        "city": "München",
+        "budget": 1552500000,
+        "corona_page": "https://www.tum.de/die-tum/aktuelles/coronavirus/",
+        "main_page": "https://www.tum.de/",
+        "page_quality": "high"
+        }
+    },
+    {
+        "model": "corpapp.University",
+        "pk": 85,
+        "fields": {
+        "name": "Universität der Bundeswehr München",
+        "abbreviation": "UniBwM",
+        "kind": "Uni",
+        "ownership": "Federal",
+        "n_students": 2944,
+        "n_staff": 1412,
+        "n_profs": 180,
+        "state": 15,
+        "city": "München",
+        "budget": 0,
+        "corona_page": "https://www.unibw.de/home/informationen-bzgl-coronavirus",
+        "main_page": "https://www.unibw.de/home",
+        "page_quality": "high"
+        }
+    },
+    {
+        "model": "corpapp.University",
+        "pk": 86,
+        "fields": {
+        "name": "Deutsche Hochschule der Polizei (Münster)",
+        "abbreviation": "DHPol",
+        "kind": "Uni",
+        "ownership": "Federal",
+        "n_students": 357,
+        "n_staff": 0,
+        "n_profs": 0,
+        "state": 12,
+        "city": "Münster",
+        "budget": 0,
+        "corona_page": "https://www.dhpol.de/die_hochschule/aktuelles/news-2020/news-12_03_2020.php",
+        "main_page": "https://www.dhpol.de/",
+        "page_quality": "high"
+        }
+    },
+    {
+        "model": "corpapp.University",
+        "pk": 87,
+        "fields": {
+        "name": "Philosophisch-Theologische Hochschule Münster",
+        "abbreviation": "PTH",
+        "kind": "Uni",
+        "ownership": "Confessional",
+        "n_students": 62,
+        "n_staff": 0,
+        "n_profs": 0,
+        "state": 12,
+        "city": "Münster",
+        "budget": 0,
+        "corona_page": 0,
+        "main_page": "http://www.pth-muenster.de/",
+        "page_quality": "lowest"
+        }
+    },
+    {
+        "model": "corpapp.University",
+        "pk": 88,
+        "fields": {
+        "name": "Westfälische Wilhelms-Universität (Münster)",
+        "abbreviation": "WWU",
+        "kind": "Uni",
+        "ownership": "Federal",
+        "n_students": 45721,
+        "n_staff": 7141,
+        "n_profs": 558,
+        "state": 12,
+        "city": "Münster",
+        "budget": 642200000,
+        "corona_page": "https://www.uni-muenster.de/de/coronavirus-information.html",
+        "main_page": "https://www.uni-muenster.de/de/",
+        "page_quality": "high"
+        }
+    },
+    {
+        "model": "corpapp.University",
+        "pk": 89,
+        "fields": {
+        "name": "Augustana-Hochschule Neuendettelsau",
+        "abbreviation": "Augustana",
+        "kind": "Uni",
+        "ownership": "Confessional",
+        "n_students": 147,
+        "n_staff": 50,
+        "n_profs": 8,
+        "state": 15,
+        "city": "Neuendettelsau",
+        "budget": 0,
+        "corona_page": "https://augustana.de/aktuelles/aktuelle-meldungen/meldungen-sommersemester-2018/news/aktuelle-information-verschiebung-des-vorlesungsbeginns-und-weitere-massnahmen-zur-vorbeugung-von-in.html",
+        "main_page": "https://augustana.de/start.html",
+        "page_quality": "low"
+        }
+    },
+    {
+        "model": "corpapp.University",
+        "pk": 90,
+        "fields": {
+        "name": "Carl von Ossietzky Universität Oldenburg",
+        "abbreviation": "UOL",
+        "kind": "Uni",
+        "ownership": "Federal",
+        "n_students": 15947,
+        "n_staff": 2496,
+        "n_profs": 222,
+        "state": 22,
+        "city": "Oldenburg",
+        "budget": 233300000,
+        "corona_page": "https://uol.de/info-coronavirus",
+        "main_page": "https://uol.de/",
+        "page_quality": "high"
+        }
+    },
+    {
+        "model": "corpapp.University",
+        "pk": 91,
+        "fields": {
+        "name": "Universität Osnabrück",
+        "abbreviation": "Uni Osnarbück",
+        "kind": "Uni",
+        "ownership": "Federal",
+        "n_students": 14106,
+        "n_staff": 1750,
+        "n_profs": 213,
+        "state": 22,
+        "city": "Osnarbrück",
+        "budget": 153900000,
+        "corona_page": "https://www.uni-osnabrueck.de/informationen-zum-corona-virus/",
+        "main_page": "https://www.uni-osnabrueck.de/startseite/",
+        "page_quality": "high"
+        }
+    },
+    {
+        "model": "corpapp.University",
+        "pk": 92,
+        "fields": {
+        "name": "Theologische Fakultät Paderborn",
+        "abbreviation": "Thf",
+        "kind": "Uni",
+        "ownership": "Confessional",
+        "n_students": 92,
+        "n_staff": 0,
+        "n_profs": 15,
+        "state": 12,
+        "city": "Paderborn",
+        "budget": 0,
+        "corona_page": 0,
+        "main_page": "https://www.thf-paderborn.de/",
+        "page_quality": "lowest"
+        }
+    },
+    {
+        "model": "corpapp.University",
+        "pk": 93,
+        "fields": {
+        "name": "Universität Paderborn",
+        "abbreviation": "Uni Paderborn",
+        "kind": "Uni",
+        "ownership": "Federal",
+        "n_students": 20205,
+        "n_staff": 2443,
+        "n_profs": 254,
+        "state": 12,
+        "city": "Paderborn",
+        "budget": 212700000,
+        "corona_page": "https://www.uni-paderborn.de/nachricht/93263/",
+        "main_page": "https://www.uni-paderborn.de/",
+        "page_quality": "high"
+        }
+    },
+    {
+        "model": "corpapp.University",
+        "pk": 94,
+        "fields": {
+        "name": "Universität Passau",
+        "abbreviation": "UP",
+        "kind": "Uni",
+        "ownership": "Federal",
+        "n_students": 11771,
+        "n_staff": 1519,
+        "n_profs": 0,
+        "state": 15,
+        "city": "Passau",
+        "budget": 0,
+        "corona_page": "https://www.wiwi.uni-passau.de/accounting-controlling/aktuelles/meldung/detail/corona-virus/",
+        "main_page": "https://www.uni-passau.de/",
+        "page_quality": "lower"
+        }
+    },
+    {
+        "model": "corpapp.University",
+        "pk": 95,
+        "fields": {
+        "name": "Filmuniversität Babelsberg Konrad Wolf (Potsdam)",
+        "abbreviation": "HFF",
+        "kind": "Uni",
+        "ownership": "Federal",
+        "n_students": 566,
+        "n_staff": 0,
+        "n_profs": 0,
+        "state": 21,
+        "city": "Potsdam",
+        "budget": 0,
+        "corona_page": "https://www.filmuniversitaet.de/filmuni/beratung-service/gesundheitsmanagement/aktuelle-hinweise-und-informationen-zum-coronavirus-sars-cov-2-fuer-hochschulangehoerige/",
+        "main_page": "https://www.filmuniversitaet.de/",
+        "page_quality": "high"
+        }
+    },
+    {
+        "model": "corpapp.University",
+        "pk": 96,
+        "fields": {
+        "name": "Universität Potsdam",
+        "abbreviation": "Uni Potsdam",
+        "kind": "Uni",
+        "ownership": "Federal",
+        "n_students": 20609,
+        "n_staff": 2893,
+        "n_profs": 317,
+        "state": 21,
+        "city": "Potsdam",
+        "budget": 229600000,
+        "corona_page": "https://www.uni-potsdam.de/de/presse/aktuelles/coronavirus",
+        "main_page": "https://www.uni-potsdam.de/de/",
+        "page_quality": "high"
+        }
+    },
+    {
+        "model": "corpapp.University",
+        "pk": 97,
+        "fields": {
+        "name": "Universität Regensburg",
+        "abbreviation": "UR",
+        "kind": "Uni",
+        "ownership": "Federal",
+        "n_students": 21416,
+        "n_staff": 3206,
+        "n_profs": 267,
+        "state": 15,
+        "city": 0,
+        "budget": 0,
+        "corona_page": "https://www.uni-regensburg.de/interne-kommunikation/corona-infos/index.html",
+        "main_page": "https://www.uni-regensburg.de/",
+        "page_quality": "high"
+        }
+    },
+    {
+        "model": "corpapp.University",
+        "pk": 98,
+        "fields": {
+        "name": "Hochschule für Musik und Theater Rostock",
+        "abbreviation": "HMT",
+        "kind": "Uni",
+        "ownership": "Federal",
+        "n_students": 555,
+        "n_staff": 0,
+        "n_profs": 0,
+        "state": 25,
+        "city": "Rostock",
+        "budget": 0,
+        "corona_page": "https://www.infektionsschutz.de/coronavirus/",
+        "main_page": "https://www.hmt-rostock.de/",
+        "page_quality": "high"
+        }
+    },
+    {
+        "model": "corpapp.University",
+        "pk": 99,
+        "fields": {
+        "name": "Universität Rostock",
+        "abbreviation": "Uni Rostock",
+        "kind": "Uni",
+        "ownership": "Federal",
+        "n_students": 13867,
+        "n_staff": 2900,
+        "n_profs": 327,
+        "state": 25,
+        "city": "Rostock",
+        "budget": 167058000,
+        "corona_page": "https://www.uni-rostock.de/",
+        "main_page": "https://www.uni-rostock.de/",
+        "page_quality": "low"
+        }
+    },
+    {
+        "model": "corpapp.University",
+        "pk": 100,
+        "fields": {
+        "name": "Universität des Saarlandes (Saarbrücken, Homburg)",
+        "abbreviation": "Uds",
+        "kind": "Uni",
+        "ownership": "Federal",
+        "n_students": 16695,
+        "n_staff": 2600,
+        "n_profs": 278,
+        "state": 27,
+        "city": "Saarbrücken",
+        "budget": 320000000,
+        "corona_page": "https://www.uni-saarland.de/page/coronavirus/faq-studierende.html",
+        "main_page": "https://www.uni-saarland.de/start.html",
+        "page_quality": "medium"
+        }
+    },
+    {
+        "model": "corpapp.University",
+        "pk": 101,
+        "fields": {
+        "name": "Universität Siegen",
+        "abbreviation": "Uni Siegen",
+        "kind": "Uni",
+        "ownership": "Federal",
+        "n_students": 19376,
+        "n_staff": 2153,
+        "n_profs": 262,
+        "state": 12,
+        "city": "Siegen",
+        "budget": 134000000,
+        "corona_page": "https://www.uni-siegen.de/corona/",
+        "main_page": "https://www.uni-siegen.de/start/",
+        "page_quality": "high"
+        }
+    },
+    {
+        "model": "corpapp.University",
+        "pk": 102,
+        "fields": {
+        "name": "Deutsche Universität für Verwaltungswissenschaften Speyer",
+        "abbreviation": "DUV Speyer",
+        "kind": "Uni",
+        "ownership": "Federal",
+        "n_students": 343,
+        "n_staff": 0,
+        "n_profs": 18,
+        "state": 20,
+        "city": "Speyer",
+        "budget": 12541900,
+        "corona_page": "https://www.uni-speyer.de/universitaet/institution/aktuelle-hinweise",
+        "main_page": "https://www.uni-speyer.de/",
+        "page_quality": "high"
+        }
+    },
+    {
+        "model": "corpapp.University",
+        "pk": 103,
+        "fields": {
+        "name": "Kölner Hochschule für Katholische Theologie (KHKT) – St. Augustin",
+        "abbreviation": "KHKT",
+        "kind": "Uni",
+        "ownership": "Confessional",
+        "n_students": 104,
+        "n_staff": 42,
+        "n_profs": 0,
+        "state": 12,
+        "city": "Sankt Augustin",
+        "budget": 0,
+        "corona_page": "http://www.pth-augustin.eu/pth/aktuelles/news/2020/Aktuelle-Informationen-zu-Corona-II.php",
+        "main_page": "http://www.pth-augustin.eu/pth/",
+        "page_quality": "low"
+        }
+    },
+    {
+        "model": "corpapp.University",
+        "pk": 104,
+        "fields": {
+        "name": "Universität Hohenheim (Stuttgart)",
+        "abbreviation": "Uni Hohenheim",
+        "kind": "Uni",
+        "ownership": "Federal",
+        "n_students": 9414,
+        "n_staff": 2090,
+        "n_profs": 119,
+        "state": 13,
+        "city": "Hohenheim",
+        "budget": 0,
+        "corona_page": "https://www.uni-hohenheim.de/corona",
+        "main_page": "https://www.uni-hohenheim.de/",
+        "page_quality": "high"
+        }
+    },
+    {
+        "model": "corpapp.University",
+        "pk": 105,
+        "fields": {
+        "name": "Universität Stuttgart",
+        "abbreviation": "Uni Stuttgart",
+        "kind": "Uni",
+        "ownership": "Federal",
+        "n_students": 26856,
+        "n_staff": 5334,
+        "n_profs": 269,
+        "state": 13,
+        "city": "Stuttgart",
+        "budget": 500000000,
+        "corona_page": "https://www.uni-stuttgart.de/universitaet/aktuelles/meldungen/corona/",
+        "main_page": "https://www.uni-stuttgart.de/",
+        "page_quality": "high"
+        }
+    },
+    {
+        "model": "corpapp.University",
+        "pk": 106,
+        "fields": {
+        "name": "Theologische Fakultät Trier",
+        "abbreviation": "TFT",
+        "kind": "Uni",
+        "ownership": "Federal",
+        "n_students": 183,
+        "n_staff": 0,
+        "n_profs": 0,
+        "state": 20,
+        "city": "Trier",
+        "budget": 0,
+        "corona_page": "https://www.uni-trier.de/index.php?id=55779&tx_news_pi1%5Bnews%5D=19607&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Baction%5D=detail&cHash=50d8a2287b68314cc6349faca354b884",
+        "main_page": "https://www.uni-trier.de/index.php?id=41977",
+        "page_quality": "low"
+        }
+    },
+    {
+        "model": "corpapp.University",
+        "pk": 107,
+        "fields": {
+        "name": "Universität Trier",
+        "abbreviation": "Uni Trier",
+        "kind": "Uni",
+        "ownership": "Federal",
+        "n_students": 12475,
+        "n_staff": 1015,
+        "n_profs": 185,
+        "state": 20,
+        "city": "Trier",
+        "budget": 117000000,
+        "corona_page": "https://www.uni-trier.de/index.php?id=65274&tx_news_pi1%5Bnews%5D=19787&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Baction%5D=detail&cHash=87efc3555264a1d16c06670d90be4f13",
+        "main_page": "https://www.uni-trier.de/",
+        "page_quality": "medium"
+        }
+    },
+    {
+        "model": "corpapp.University",
+        "pk": 108,
+        "fields": {
+        "name": "Eberhard Karls Universität Tübingen",
+        "abbreviation": "EKU",
+        "kind": "Uni",
+        "ownership": "Federal",
+        "n_students": 27833,
+        "n_staff": 17316,
+        "n_profs": 536,
+        "state": 13,
+        "city": "Tübingen",
+        "budget": 589200000,
+        "corona_page": "https://uni-tuebingen.de/universitaet/infos-zum-coronavirus/",
+        "main_page": "https://uni-tuebingen.de/",
+        "page_quality": "high"
+        }
+    },
+    {
+        "model": "corpapp.University",
+        "pk": 109,
+        "fields": {
+        "name": "Technische Hochschule Ulm",
+        "abbreviation": "uulm",
+        "kind": "FH",
+        "ownership": "Federal",
+        "n_students": 4018,
+        "n_staff": 3540,
+        "n_profs": 227,
+        "state": 13,
+        "city": "Ulm",
+        "budget": 0,
+        "corona_page": "https://www.uni-ulm.de/universitaet/informationen-zum-coronavirus/",
+        "main_page": "https://www.uni-ulm.de/",
+        "page_quality": "high"
+        }
+    },
+    {
+        "model": "corpapp.University",
+        "pk": 110,
+        "fields": {
+        "name": "WHU – Otto Beisheim School of Management (Vallendar)",
+        "abbreviation": "WHU",
+        "kind": "Uni",
+        "ownership": "Private",
+        "n_students": 1183,
+        "n_staff": 194,
+        "n_profs": 40,
+        "state": 20,
+        "city": "Vallendar",
+        "budget": 41200000,
+        "corona_page": "https://www.whu.edu/about-whu/top-news/",
+        "main_page": "https://www.whu.edu/",
+        "page_quality": "low"
+        }
+    },
+    {
+        "model": "corpapp.University",
+        "pk": 111,
+        "fields": {
+        "name": "Universität Vechta",
+        "abbreviation": "Uni Vechta",
+        "kind": "Uni",
+        "ownership": "Federal",
+        "n_students": 5350,
+        "n_staff": 553,
+        "n_profs": 74,
+        "state": 22,
+        "city": "Vechta",
+        "budget": 0,
+        "corona_page": "https://www.uni-vechta.de/einrichtungen-von-a-z/arbeits-und-gesundheitsschutz/corona/aktuelles/",
+        "main_page": "https://www.uni-vechta.de/home/",
+        "page_quality": "high"
+        }
+    },
+    {
+        "model": "corpapp.University",
+        "pk": 112,
+        "fields": {
+        "name": "Bauhaus-Universität Weimar",
+        "abbreviation": "BU Weimar",
+        "kind": "Uni",
+        "ownership": "Federal",
+        "n_students": 4172,
+        "n_staff": 0,
+        "n_profs": 85,
+        "state": 17,
+        "city": "Weimar",
+        "budget": 0,
+        "corona_page": "https://www.uni-weimar.de/de/universitaet/struktur/zentrale-einrichtungen/servicezentrum-sicherheitsmanagement/information-zum-coronavirus/",
+        "main_page": "https://www.uni-weimar.de/de/universitaet/start/",
+        "page_quality": "high"
+        }
+    },
+    {
+        "model": "corpapp.University",
+        "pk": 113,
+        "fields": {
+        "name": "EBS Universität für Wirtschaft und Recht (Wiesbaden, Oestrich-Winkel)",
+        "abbreviation": "EBS",
+        "kind": "Uni",
+        "ownership": "Private",
+        "n_students": 2227,
+        "n_staff": 330,
+        "n_profs": 41,
+        "state": 18,
+        "city": "Wiesbaden",
+        "budget": 0,
+        "corona_page": "https://www.ebs.edu/de/coronavirus",
+        "main_page": "https://www.ebs.edu/de",
+        "page_quality": "high"
+        }
+    },
+    {
+        "model": "corpapp.University",
+        "pk": 114,
+        "fields": {
+        "name": "Universität Witten/Herdecke",
+        "abbreviation": "UW/H",
+        "kind": "Uni",
+        "ownership": "Private",
+        "n_students": 2317,
+        "n_staff": 582,
+        "n_profs": 0,
+        "state": 12,
+        "city": "Witten",
+        "budget": 38000000,
+        "corona_page": "https://www.uni-wh.de/universitaet/service-organisation/informationen-zum-coronavirus/",
+        "main_page": "https://www.uni-wh.de/",
+        "page_quality": "high"
+        }
+    },
+    {
+        "model": "corpapp.University",
+        "pk": 115,
+        "fields": {
+        "name": "Bergische Universität Wuppertal",
+        "abbreviation": "BUW",
+        "kind": "Uni",
+        "ownership": "Federal",
+        "n_students": 22061,
+        "n_staff": 3651,
+        "n_profs": 260,
+        "state": 12,
+        "city": "Wuppertal",
+        "budget": 110000000,
+        "corona_page": "https://www.uni-wuppertal.de/de/universitaet/coronavirus/",
+        "main_page": "https://www.uni-wuppertal.de/",
+        "page_quality": "high"
+        }
+    },
+    {
+        "model": "corpapp.University",
+        "pk": 116,
+        "fields": {
+        "name": "Kirchliche Hochschule Wuppertal/Bethel",
+        "abbreviation": "KiHO",
+        "kind": "Uni",
+        "ownership": "Confessional",
+        "n_students": 129,
+        "n_staff": 49,
+        "n_profs": 0,
+        "state": 12,
+        "city": "Wuppertal",
+        "budget": 0,
+        "corona_page": "https://www.kiho-wb.de/das-sommersemester-beginnt-am-21-april-aber-anders/",
+        "main_page": "https://www.kiho-wb.de/",
+        "page_quality": "high"
+        }
+    },
+    {
+        "model": "corpapp.University",
+        "pk": 117,
+        "fields": {
+        "name": "Julius-Maximilians-Universität Würzburg",
+        "abbreviation": "JMU",
+        "kind": "Uni",
+        "ownership": "Federal",
+        "n_students": 28735,
+        "n_staff": 4410,
+        "n_profs": 0,
+        "state": 15,
+        "city": "Würzburg",
+        "budget": 466500000,
+        "corona_page": "https://www.uni-wuerzburg.de/index.php?id=219563",
+        "main_page": "https://www.uni-wuerzburg.de/startseite/",
+        "page_quality": "high"
+        }
+    },
+    {
+        "model": "corpapp.University",
+        "pk": 118,
+        "fields": {
+        "name": "Helmut-Schmidt-Universität",
+        "abbreviation": "HSU/UniBw Hamburg",
+        "kind": "Uni",
+        "ownership": "Federal",
+        "n_students": 2587,
+        "n_staff": 894,
+        "n_profs": 104,
+        "state": 26,
+        "city": "Hamburg",
+        "budget": 109723477,
+        "corona_page": "https://www.hsu-hh.de/schliessung-der-universitaet",
+        "main_page": "https://www.hsu-hh.de/",
+        "page_quality": "high"
         }
     }
 ]
