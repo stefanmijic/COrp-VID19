@@ -1,0 +1,29 @@
+{% extends "corpapp/base.html" %}
+{% load humanize %}
+
+
+{% block title %}COrpVID19 | {{ measure.name }}{% endblock %}
+
+{% block header %}{{ measure.name }}{% endblock %}
+
+
+{% block content %}
+
+This measure was adopted by {{ uni_adoption_percent|floatformat:2 }}% of universities.
+
+<div class="container">
+	<div class="row col dark">Implemented by Universities:</div>
+	{% if unis %}
+		{% for i in unis %}
+		<div class="row">
+			<div class="col"><a href="/university/{{ i.entity_id.id }}">{{ i.entity_id.name }}</a></div>
+			<div class="col">{{ i.date }}</div>
+		</div>
+		{% endfor %}
+	{% else %}
+		<div class="row col">No unis found</div>
+	{% endif %}
+</div>
+
+
+{% endblock content %}

@@ -40,7 +40,7 @@
 	{% if impl %}
 		{% for i in impl %}
 		<div class="row">
-			<div class="col">{{ i.measure.name }}</div>
+			<div class="col"><a href="/measure/{{ i.measure.id }}">{{ i.measure.name }}</a></div>
 			<div class="col">{{ i.date }}</div>
 		</div>
 		{% endfor %}

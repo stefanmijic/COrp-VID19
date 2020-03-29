@@ -38,3 +38,9 @@ def corporations(request):
     corplist = Corporation.objects.order_by(Lower('name'))
     context = {'corplist': corplist}
     return render(request, 'corpapp/corporations.html', context)
+
+def measure_detail(request, mid):
+    unis = Implemented.objects.filter(entity_type=0, measure=mid).order_by('date')
+    uni_adoption_percent = len(unis) / len(University.objects.all()) * 100;
+    context = {'measure': Measure.objects.get(id=mid), 'unis': unis, 'uni_adoption_percent': uni_adoption_percent}
+    return render(request, 'corpapp/measure_detail.html', context)
