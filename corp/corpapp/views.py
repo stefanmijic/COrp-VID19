@@ -42,6 +42,11 @@ def corporations(request):
     context = {'corplist': corplist, 'active_index': '5'}
     return render(request, 'corpapp/corporations.html', context)
 
+def corp_detail(request, cid):
+    implements = Implemented.objects.filter(entity_type=1, entity_id=cid).order_by('date')
+    context = {'corp': Corporation.objects.get(id=cid), 'impl': implements}
+    return render(request, 'corpapp/corp_detail.html', context)
+
 def measures(request):
     mlist = Measure.objects.order_by(Lower('name'))
     nunis = len(University.objects.all())

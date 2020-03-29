@@ -20,7 +20,7 @@
 	</tr></thead>
 	{% for c in corplist %}
 	<tr>
-		<td><a href="{{ c.main_page }}">{{ c.name }}</a></td>
+		<td><a href="/corp/{{ c.id }}">{{ c.name }}</a></td>
 		<td><a>{{ c.state }}</a></td>
 		<td><a>{{ c.city }}</a></td>
 		<td>{{ c.n_employees|intcomma }}</td>

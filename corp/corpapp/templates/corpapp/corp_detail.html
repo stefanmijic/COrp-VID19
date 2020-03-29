@@ -1,0 +1,51 @@
+{% extends "corpapp/base.html" %}
+{% load humanize %}
+
+
+{% block title %}COrpVID19 | {{ corp.name }}{% endblock %}
+
+{% block header %}{{ corp.name }} response{% endblock %}
+
+
+{% block content %}
+
+<h4>Find out more about the actions <b>{{ corp.name }}</b> took:</h4>
+<a href="{{ corp.main_page }}">General Website</a><br/>
+<a href="{{ corp.corona_page }}">Corona Info</a><br/>
+
+<br />
+
+<div class="container">
+<div class="row col dark">Quick Facts:</div>
+<div class="row">
+	<div class="col med">Type</div>
+	<div class="col med">Country</div>
+	<div class="col">State</div>
+	<div class="col med">Employees</div>
+	<div class="col">Stock price</div>
+</div>
+<div class="row">
+	<div class="col">{{ corp.kind }}</div>
+	<div class="col med"><a href="country/{{ corp.state.country.name }}">{{ corp.state.country.name }}</a></div>
+	<div class="col">{{ corp.state.name }}</div>
+	<div class="col med">{{ corp.n_employees|intcomma }}</div>
+	<div class="col">{{ corp.stock_price|floatformat:2|intcomma }}</div>
+</div>
+</div>
+
+<div class="container">
+	<div class="row col dark">Measures implemented:</div>
+	{% if impl %}
+		{% for i in impl %}
+		<div class="row">
+			<div class="col"><a href="/measure/{{ i.measure.id }}">{{ i.measure.name }}</a></div>
+			<div class="col">{{ i.date }}</div>
+		</div>
+		{% endfor %}
+	{% else %}
+		<div class="row col">No measures found</div>
+	{% endif %}
+</div>
+
+
+{% endblock content %}
