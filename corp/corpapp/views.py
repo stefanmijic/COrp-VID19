@@ -29,6 +29,9 @@ def universities(request):
     context = {'unilist': unilist}
     return render(request, 'corpapp/universities.html', context)
 
+def university_detail(request, aid):
+    context = {'uni': University.objects.get(id=aid)}
+    return render(request, 'corpapp/university_detail.html', context)
 
 def corporations(request):
     corplist = Corporation.objects.order_by(Lower('name'))

@@ -1,0 +1,38 @@
+{% extends "corpapp/base.html" %}
+{% load humanize %}
+
+
+{% block title %}COrpVID19 | {{ uni.name }}{% endblock %}
+
+{% block header %}{{ uni.name }} response{% endblock %}
+
+
+{% block content %}
+
+<h4>Find out more about the actions <b>{{ uni.name }}</b> took:</h4>
+<a href="{{ uni.main_page }}">General Website</a><br/>
+<a href="{{ uni.corona_page }}">Corona Info</a><br/>
+
+<br />
+
+<div class="container">
+<div class="row col dark">Quick Facts:</div>
+<div class="row">
+	<div class="col med">Country</div>
+	<div class="col">State</div>
+	<div class="col med">Students</div>
+	<div class="col">Staff</div>
+	<div class="col med">Professors</div>
+	<div class="col">Budget</div>
+</div>
+<div class="row">
+	<div class="col med"><a href="country/{{ uni.state.country.name }}">{{ uni.state.country.name }}</a></div>
+	<div class="col">{{ uni.state.name }}</div>
+	<div class="col med">{{ uni.n_students|intcomma }}</div>
+	<div class="col">{{ uni.n_staff|intcomma }}</div>
+	<div class="col med">{{ uni.n_profs|intcomma }}</div>
+	<div class="col">{{ uni.budget|floatformat:2|intcomma }}</div>
+</div>
+</div>
+
+{% endblock content %}

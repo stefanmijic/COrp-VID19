@@ -20,7 +20,7 @@
 	</tr></thead>
 	{% for u in unilist %}
 	<tr>
-		<td><a href="{{ u.main_page }}">{{ u.name }}</a></td>
+		<td><a href="university/{{ u.id }}">{{ u.name }}</a></td>
 		<td><a>{{ u.state }}</a></td>
 		<td>{{ u.n_students|intcomma }}</td>
 		<td>{{ u.n_staff|add:u.n_profs|intcomma }}</td>

@@ -8,5 +8,6 @@ urlpatterns = [
         path("states", views.states, name="states"),
         path("cities", views.cities, name="cities"),
         path("universities", views.universities, name="universities"),
+        path("university/<aid>", views.university_detail, name="university_detail"),
         path("corporations", views.corporations, name="corporations"),
     ]

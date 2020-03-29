@@ -26,7 +26,10 @@ Corporate COVID-19 Response Visualization
 
 ## Dependencies
 - Läuft mit Python 3 und Django
+
 https://getbootstrap.com/
 http://lesscss.org/
 https://datatables.net/
 https://frappe.io/charts
+
+https://covid.ourworldindata.org/data/ecdc/total_cases.csv
