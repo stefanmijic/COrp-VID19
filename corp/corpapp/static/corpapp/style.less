@@ -20,7 +20,16 @@ top-ribbon {
 
 header {
 	font-size:	32pt;
+	font-style: bold;
 	margin-bottom:	20px;
+	text-align: center;
+}
+
+navbar {
+	background-color:	@dark;
+	position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0px;
 }
 
 #nav-option {
@@ -31,10 +40,11 @@ header {
 	color:		@light;
 }
 
-#nav-option:hover {
+#nav-option:hover, #nav-option.active{
 	background-color:	@light;
 	color:		@accent;
 	text-decoration:	none;
+	border-radius: 15px 15px 0px 0px;
 }
 
 main-container {
@@ -48,6 +58,9 @@ footer {
 	background-color:	@medium;
 	color:		@dark;
 	text-align:	center;
+	position: fixed;
+  left: 0;
+  bottom: 0;
 }
 
 a, a:link, a:hover {

@@ -24,22 +24,38 @@
 		$(document).ready(function() {
 			$('.datatable').DataTable();
 		} );
+
+		// Get the container element
+		let navOptionContainer = $(document).getElementById("nav-bar");
+
+		// Get all links with class="nav-option" inside the container
+		let opts = navOptionContainer.getElementsByClassName("nav-option");
+
+		// Loop through the options and add the active class to the current/clicked otpion
+		// something seems to be buggy here...
+		for (let i = 0; i < opts.length; i++) {
+		  opts[i].addEventListener("click", function() {
+		    let current = $(document).getElementsByClassName("active");
+		    current[0].className = current[0].className.replace(" active", "");
+		    this.className += " active";
+      });
+		}
 	</script>
 
 	{% block bonushead %}{% endblock %}
 {% endblock %}
 
-<top-ribbon class="container">
+<top-ribbon class="container-fluid">
 	<header class="row col">
 		{% block header %}{% endblock %}
 	</header>
-	<navbar class="row">
-		<a href="/" id="nav-option" class="col-sm">Home</a>
-		<a href="/countries" id="nav-option" class="col-sm">Countries</a>
-		<a href="/states" id="nav-option" class="col-sm">States</a>
-		<a href="/cities" id="nav-option" class="col-sm">Cities</a>
-		<a href="/universities" id="nav-option" class="col-sm">Universities</a>
-		<a href="/corporations" id="nav-option" class="col-sm">Corporations</a>
+	<navbar class="row" id="nav-bar">
+		<a href="/" id="nav-option" class="nav-option col-sm active">Home</a>
+		<a href="/countries" id="nav-option" class="nav-option col-sm">Countries</a>
+		<a href="/states" id="nav-option" class="nav-option col-sm">States</a>
+		<a href="/cities" id="nav-option" class="nav-option col-sm">Cities</a>
+		<a href="/universities" id="nav-option" class="nav-option col-sm">Universities</a>
+		<a href="/corporations" id="nav-option" class="nav-option col-sm">Corporations</a>
 	</navbar>
 </top-ribbon>
 
@@ -51,6 +67,6 @@
 
 </main-container>
 
-<footer class="container">
-		Made at <a href="https://www.codevscovid19.org/">CodeVsCOVID19</a> | Powered by <a href="https://www.djangoproject.com/">Django</a> | Visit our <a href="https://github.com/stefanmijic/COrp-VID19">GitHub</a>
+<footer class="container-fluid">
+		Made at <a href="https://www.codevscovid19.org/">CodeVsCOVID19</a> | Powered by <a href="https://www.djangoproject.com/">Django</a> and <a href="https://www.youtube.com/watch?v=oHg5SJYRHA0">Friendship</a> | Visit our <a href="https://github.com/stefanmijic/COrp-VID19">GitHub</a>
 </footer>

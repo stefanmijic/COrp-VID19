@@ -3,7 +3,7 @@
         "model": "corpapp.Country",
         "pk": 1,
         "fields": {
-          "name": "Schweiz",
+          "name": "Switzerland",
           "abbreviation": "CH",
           "bip": 705500000000,
           "people": 8544527
@@ -13,7 +13,7 @@
         "model": "corpapp.Country",
         "pk": 2,
         "fields": {
-          "name": "Zurich",
+          "name": "Germany",
           "abbreviation": "DE",
           "bip": 3951000000000,
           "people": 83019213
