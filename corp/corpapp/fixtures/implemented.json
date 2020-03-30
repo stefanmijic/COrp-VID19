@@ -88,5 +88,45 @@
 			"measure":		1,
 			"date":			"2020-03-16"
 		}
+	},
+	{
+		"model":	"corpapp.Implemented",
+		"pk":		10,
+		"fields":	{
+			"entity_type":	1,
+			"entity_id":	1,
+			"measure":		6,
+			"date":			"2020-03-24"
+		}
+	},
+	{
+		"model":	"corpapp.Implemented",
+		"pk":		11,
+		"fields":	{
+			"entity_type":	1,
+			"entity_id":	2,
+			"measure":		7,
+			"date":			"2020-03-23"
+		}
+	},
+	{
+		"model":	"corpapp.Implemented",
+		"pk":		12,
+		"fields":	{
+			"entity_type":	1,
+			"entity_id":	5,
+			"measure":		2,
+			"date":			"2020-03-23"
+		}
+	},
+	{
+		"model":	"corpapp.Implemented",
+		"pk":		13,
+		"fields":	{
+			"entity_type":	1,
+			"entity_id":	5,
+			"measure":		1,
+			"date":			"2020-03-23"
+		}
 	}
 ]

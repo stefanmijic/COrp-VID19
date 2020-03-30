@@ -21,7 +21,7 @@
 
 <h1>States in {{ country.name }}:</h1>
 {% if states %}
-<table class="datatable">
+<table class="datatable table">
 	<thead><tr>
 		<th>Name</th>
 		<th>People</th>
@@ -50,7 +50,7 @@ Sorry, no States found...
 	{% for u in unis %}
 	<tr>
 		<td><a href="university/{{ u.id }}">{{ u.name }}</a></td>
-		<td><a>{{ u.state }}</a></td>
+		<td>{{ u.state }}</td>
 		<td>{{ u.n_students|intcomma }}</td>
 		<td>{{ u.n_staff|add:u.n_profs|intcomma }}</td>
 		<td>{{ u.budget|intcomma }}</td>
@@ -59,6 +59,30 @@ Sorry, no States found...
 </table>
 {% else %}
 Sorry, no Unis found...
+{% endif %}
+
+<h1>Corporations in {{ country.name }}:</h1>
+{% if corps %}
+<table class="datatable table">
+	<thead><tr>
+		<th>Name</th>
+		<th>State</th>
+		<th>City</th>
+		<th>Employees</th>
+		<th>Revenue</th>
+	</tr></thead>
+	{% for c in corps %}
+	<tr>
+		<td><a href="/corp/{{ c.id }}">{{ c.name }}</a></td>
+		<td><a>{{ c.state }}</a></td>
+		<td><a>{{ c.city }}</a></td>
+		<td>{{ c.n_employees|intcomma }}</td>
+		<td>{{ c.stock_price|floatformat:2|intcomma }} bn.</td>
+	</tr>
+	{% endfor %}
+</table>
+{% else %}
+Sorry, no Corporations found...
 {% endif %}
 
 {% endblock content %}

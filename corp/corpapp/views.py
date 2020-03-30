@@ -14,7 +14,8 @@ def country_detail(request, country):
     country = Country.objects.get(name=country)
     states = State.objects.filter(country=country)
     unis = [x for x in University.objects.all() if x.state.country == country]
-    context = {'country': country, 'states': states, 'unis': unis}
+    corps = [x for x in Corporation.objects.all() if x.state.country == country]
+    context = {'country': country, 'states': states, 'unis': unis, 'corps': corps}
     return render(request, 'corpapp/country_detail.html', context)
 
 def states(request):
@@ -61,5 +62,8 @@ def measures(request):
 def measure_detail(request, mid):
     unis = Implemented.objects.filter(entity_type=0, measure=mid).order_by('date')
     uni_adoption_percent = len(unis) / len(University.objects.all()) * 100;
-    context = {'measure': Measure.objects.get(id=mid), 'unis': unis, 'uni_adoption_percent': uni_adoption_percent}
+    pre_corps = Implemented.objects.filter(entity_type=1, measure=mid).order_by('date')
+    corps = [(Corporation.objects.get(id=x.entity_id.id), x.date) for x in pre_corps]
+    corp_adoption_percent = len(corps) / len(Corporation.objects.all()) * 100;
+    context = {'measure': Measure.objects.get(id=mid), 'unis': unis, 'uni_adoption_percent': uni_adoption_percent, 'corps': corps, 'corp_adoption_percent': corp_adoption_percent}
     return render(request, 'corpapp/measure_detail.html', context)

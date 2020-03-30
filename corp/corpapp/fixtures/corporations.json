@@ -69,9 +69,9 @@
             "state": 15,
             "city": "Munich",
             "stock_price": 86849,
-            "corona_page": "",
+            "corona_page": "https://new.siemens.com/global/de/unternehmen/ueber-uns/covid-19.html",
             "main_page": "https://new.siemens.com/global/en.html",
-            "page_quality": "https://press.siemens.com/global/en"
+            "page_quality": ""
         }
     }
 ]

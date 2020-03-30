@@ -9,7 +9,9 @@
 
 {% block content %}
 
-<h1><i>{{ measure.name }}</i> was adopted by {{ uni_adoption_percent|floatformat:2 }}% of universities.</h1>
+<h1>{{ measure.name }}</h1>
+
+<h3>Adopted by {{ uni_adoption_percent|floatformat:2 }}% of universities.</h3>
 
 <div class="container">
 	<div class="row col dark">Implemented by Universities:</div>
@@ -22,6 +24,22 @@
 		{% endfor %}
 	{% else %}
 		<div class="row col">No unis found</div>
+	{% endif %}
+</div>
+
+<h3>Adopted by {{ corp_adoption_percent|floatformat:2 }}% of corporations.</h3>
+
+<div class="container">
+	<div class="row col dark">Implemented by Corporations:</div>
+	{% if corps %}
+		{% for i, date in corps %}
+		<div class="row">
+			<div class="col"><a href="/corp/{{ i.id }}">{{ i.name }}</a></div>
+			<div class="col">{{ date }}</div>
+		</div>
+		{% endfor %}
+	{% else %}
+		<div class="row col">No corporations found</div>
 	{% endif %}
 </div>
 

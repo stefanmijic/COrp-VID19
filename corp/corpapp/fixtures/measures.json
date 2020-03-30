@@ -33,5 +33,19 @@
 		"fields":	{
 			"name":		"Closed Cafeteria"
 		}
+	},
+	{
+		"model":	"corpapp.Measure",
+		"pk":		6,
+		"fields":	{
+			"name":		"Kurzarbeit"
+		}
+	},
+	{
+		"model":	"corpapp.Measure",
+		"pk":		7,
+		"fields":	{
+			"name":		"Stopped Production"
+		}
 	}
 ]
