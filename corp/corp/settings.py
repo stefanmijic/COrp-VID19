@@ -25,7 +25,7 @@ SECRET_KEY = 'z#((l0thoy_m(7hg1j^avvhjmazue0+l*_&&8th#sn5gjgzes9'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["cherrysoft.org"]
 
 
 # Application definition
