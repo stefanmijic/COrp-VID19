@@ -12,6 +12,7 @@ services:
     ports:
       - "5433:5432"
   web:
+    restart: always
     build: .
     command: sh start.sh
     volumes:
@@ -20,3 +21,6 @@ services:
       - "8000:8000"
     depends_on:
       - db
+    environment:
+      - VIRTUAL_HOST=cherrysoft.org
+      - LETSENCRYPT_HOST=cherrysoft.org
