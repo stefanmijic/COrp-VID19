@@ -10,6 +10,7 @@ python3 corp/manage.py loaddata states.json
 python3 corp/manage.py loaddata universities.json
 python3 corp/manage.py loaddata measures.json
 python3 corp/manage.py loaddata implemented.json
+python3 corp/manage.py loaddata corporations.json
 
 # start our server
 python3 corp/manage.py runserver

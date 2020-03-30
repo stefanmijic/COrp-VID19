@@ -16,7 +16,7 @@
 		<th>State</th>
 		<th>City</th>
 		<th>Employees</th>
-		<th>Stock Price</th>
+		<th>Revenue</th>
 	</tr></thead>
 	{% for c in corplist %}
 	<tr>
@@ -24,12 +24,12 @@
 		<td><a>{{ c.state }}</a></td>
 		<td><a>{{ c.city }}</a></td>
 		<td>{{ c.n_employees|intcomma }}</td>
-		<td>{{ c.stock_price|floatformat:2|intcomma }}</td>
+		<td>{{ c.stock_price|floatformat:2|intcomma }} bn.</td>
 	</tr>
 	{% endfor %}
 </table>
 {% else %}
-Sorry, no Unis found...
+Sorry, no Corporations found...
 {% endif %}
 
 {% endblock content %}

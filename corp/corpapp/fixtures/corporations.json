@@ -1,0 +1,77 @@
+[
+    {
+        "model": "corpapp.Corporation",
+        "pk": 1,
+        "fields": {
+            "name": "Volkswagen Group",
+            "kind": "Aktiengesellschaft",
+            "n_employees": 304174,
+            "state": 22,
+            "city": "Wolfsburg",
+            "stock_price": 252632,
+            "corona_page": "",
+            "main_page": "https://www.volkswagenag.com/",
+            "page_quality": ""
+        }
+    },
+    {
+        "model": "corpapp.Corporation",
+        "pk": 2,
+        "fields": {
+            "name": "Daimler AG",
+            "kind": "Aktiengesellschaft",
+            "n_employees": 298655,
+            "state": 13,
+            "city": "Stuttgart",
+            "stock_price": 172745,
+            "corona_page": "https://www.daimler.com/company/news/further-measures-covid-19-pandemic.html",
+            "main_page": "https://www.daimler.com/en/",
+            "page_quality": ""
+        }
+    },
+    {
+        "model": "corpapp.Corporation",
+        "pk": 3,
+        "fields": {
+            "name": "Allianz",
+            "kind": "Societas Europaea",
+            "n_employees": 147268,
+            "state": 15,
+            "city": "Munich",
+            "stock_price": 142369,
+            "corona_page": "https://www.allianz.com/en/press/news/studies/200326_Allianz-coronavirus-economic-impact-viral-spiral.html",
+            "main_page": "https://www.allianz.com/en.html",
+            "page_quality": ""
+        }
+    },
+    {
+        "model": "corpapp.Corporation",
+        "pk": 4,
+        "fields": {
+            "name": "BMW",
+            "kind": "Aktiengesellschaft",
+            "n_employees": 133778,
+            "state": 15,
+            "city": "Munich",
+            "stock_price": 104210,
+            "corona_page": "",
+            "main_page": "https://www.bmwgroup.com/en.html",
+            "page_quality": ""
+        }
+    },
+    {
+        "model": "corpapp.Corporation",
+        "pk": 5,
+        "fields": {
+            "name": "Siemens",
+            "kind": "Aktiengesellschaft",
+            "n_employees": 385000,
+            "state": 15,
+            "city": "Munich",
+            "stock_price": 86849,
+            "corona_page": "",
+            "main_page": "https://new.siemens.com/global/en.html",
+            "page_quality": "https://press.siemens.com/global/en"
+        }
+    }
+]
