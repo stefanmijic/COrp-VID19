@@ -49,7 +49,7 @@ Sorry, no States found...
 	</tr></thead>
 	{% for u in unis %}
 	<tr>
-		<td><a href="university/{{ u.id }}">{{ u.name }}</a></td>
+		<td><a href="/university/{{ u.id }}">{{ u.name }}</a></td>
 		<td>{{ u.state }}</td>
 		<td>{{ u.n_students|intcomma }}</td>
 		<td>{{ u.n_staff|add:u.n_profs|intcomma }}</td>

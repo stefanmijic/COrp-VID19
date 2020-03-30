@@ -18,7 +18,7 @@
 	</tr></thead>
 	{% for m, uni_imp, corp_imp in mlist %}
 	<tr>
-		<td><a href="measure/{{ m.id }}">{{ m.name }}</a></td>
+		<td><a href="/measure/{{ m.id }}">{{ m.name }}</a></td>
 		<td>{{ uni_imp|floatformat:2 }}</td>
 		<td>{{ corp_imp|floatformat:2 }}</td>
 	</tr>

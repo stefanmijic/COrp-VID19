@@ -26,7 +26,7 @@
 </div>
 <div class="row">
 	<div class="col">{{ corp.kind }}</div>
-	<div class="col med"><a href="country/{{ corp.state.country.name }}">{{ corp.state.country.name }}</a></div>
+	<div class="col med"><a href="/country/{{ corp.state.country.name }}">{{ corp.state.country.name }}</a></div>
 	<div class="col">{{ corp.state.name }}</div>
 	<div class="col med">{{ corp.n_employees|intcomma }}</div>
 	<div class="col">{{ corp.stock_price|floatformat:2|intcomma }} bn.</div>
